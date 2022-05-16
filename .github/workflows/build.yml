@@ -28,7 +28,7 @@ jobs:
       env:
         PUSH_VERSION_COMMIT: ${{ secrets.PUSH_VERSION_COMMIT }}
       if: "env.PUSH_VERSION_COMMIT == ''"
-      run: echo ::set-output name=version_suffix::$(date -u +"%H%M%S")
+      run: echo ::set-output name=version_suffix::$(date -u +"%H%M")
     - name: Bump version
       id: bump_version
       run: |
