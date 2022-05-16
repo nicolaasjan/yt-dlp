@@ -13,7 +13,7 @@
 ### 2022.05.16
 
 * Merge upstream
-* Use least jpeg compression when converting wem thumbnails
+* Use the least jpeg compression when converting webm thumbnails by [nicolaasjan](https://github.com/nicolaasjan)
 
 ### 2022.04.08
 
