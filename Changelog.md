@@ -10,6 +10,10 @@
 * Dispatch the workflow https://github.com/yt-dlp/yt-dlp/actions/workflows/build.yml on master
 -->
 
+### 2022.05.17
+
+* Merge upstream
+
 ### 2022.05.16
 
 * Merge upstream
