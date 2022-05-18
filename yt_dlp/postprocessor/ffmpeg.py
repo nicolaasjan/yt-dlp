@@ -1080,7 +1080,7 @@ class FFmpegThumbnailsConvertorPP(FFmpegPostProcessor):
     @staticmethod
     def _options(target_ext):
         if target_ext == 'jpg':
-            return ['-bsf:v', 'mjpeg2jpeg']
+            return ['-q:v', '1', '-bsf:v', 'mjpeg2jpeg']
         return []
 
     def convert_thumbnail(self, thumbnail_filename, target_ext):
