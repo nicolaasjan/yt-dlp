@@ -442,8 +442,8 @@ You can also fork the project on github and run your fork's [build workflow](.gi
                                     (e.g. 50k or 44.6m)
     --date DATE                     Download only videos uploaded on this date.
                                     The date can be "YYYYMMDD" or in the format 
-                                    [now|today|yesterday][-N[day|week|month|year]].
-                                    Eg: --date today-2weeks
+                                    [now|today|yesterday][-N[day|week|month|year
+                                    ]]. Eg: --date today-2weeks
     --datebefore DATE               Download only videos uploaded on or before
                                     this date. The date formats accepted is the
                                     same as --date
@@ -749,7 +749,8 @@ You can also fork the project on github and run your fork's [build workflow](.gi
                                     "info" key and the progress attributes are
                                     accessible under "progress" key. E.g.:
                                     --console-title --progress-template
-                                    "download-title:%(info.id)s-%(progress.eta)s"
+                                    "download-
+                                    title:%(info.id)s-%(progress.eta)s"
     -v, --verbose                   Print various debugging information
     --dump-pages                    Print downloaded pages encoded using base64
                                     to debug problems (very verbose)
@@ -1028,9 +1029,9 @@ You can also fork the project on github and run your fork's [build workflow](.gi
                                     postprocessors
 
 ## SponsorBlock Options:
-Make chapter entries for, or remove various segments (sponsor,
+    Make chapter entries for, or remove various segments (sponsor,
     introductions, etc.) from downloaded YouTube videos using the
-    [SponsorBlock API](https://sponsor.ajay.app)
+    SponsorBlock API (https://sponsor.ajay.app)
 
     --sponsorblock-mark CATS        SponsorBlock categories to create chapters
                                     for, separated by commas. Available
@@ -1040,8 +1041,8 @@ Make chapter entries for, or remove various segments (sponsor,
                                     default (=all). You can prefix the category
                                     with a "-" to exclude it. See [1] for
                                     description of the categories. Eg:
-                                    --sponsorblock-mark all,-preview
-                                    [1] https://wiki.sponsor.ajay.app/w/Segment_Categories
+                                    --sponsorblock-mark all,-preview [1] https:/
+                                    /wiki.sponsor.ajay.app/w/Segment_Categories
     --sponsorblock-remove CATS      SponsorBlock categories to be removed from
                                     the video file, separated by commas. If a
                                     category is present in both mark and remove,
