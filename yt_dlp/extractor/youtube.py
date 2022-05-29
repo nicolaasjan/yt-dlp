@@ -2530,22 +2530,16 @@ class YoutubeIE(YoutubeBaseInfoExtractor):
 
     def _decrypt_signature(self, s, video_id, player_url):
         """Turn the encrypted s field into a working signature"""
-
-        if player_url is None:
-            raise ExtractorError('Cannot decrypt signature without player_url')
-
         try:
             player_id = (player_url, self._signature_cache_id(s))
             if player_id not in self._player_cache:
-                func = self._extract_signature_function(
-                    video_id, player_url, s
-                )
+                func = self._extract_signature_function(video_id, player_url, s)
                 self._player_cache[player_id] = func
             func = self._player_cache[player_id]
             self._print_sig_code(func, s)
             return func(s)
         except Exception as e:
-            raise ExtractorError('Signature extraction failed: ' + traceback.format_exc(), cause=e)
+            raise ExtractorError(traceback.format_exc(), cause=e, video_id=video_id)
 
     def _decrypt_nsig(self, s, video_id, player_url):
         """Turn the encrypted n field into a working signature"""
@@ -2720,6 +2714,21 @@ class YoutubeIE(YoutubeBaseInfoExtractor):
                     chapter_time, chapter_title, duration)
                 for contents in content_list
             ))), [])
+
+    @staticmethod
+    def _extract_chapters_from_description(description, duration):
+        chapters = [{'start_time': 0}]
+        for timestamp, title in re.findall(
+                r'(?m)^((?:\d+:)?\d{1,2}:\d{2})\b\W*\s(.+?)\s*$', description or ''):
+            start = parse_duration(timestamp)
+            if start and title and chapters[-1]['start_time'] < start < duration:
+                chapters[-1]['end_time'] = start
+                chapters.append({
+                    'start_time': start,
+                    'title': title,
+                })
+        chapters[-1]['end_time'] = duration
+        return chapters[1:]
 
     def _extract_chapters(self, chapter_list, chapter_time, chapter_title, duration):
         chapters = []
@@ -3147,13 +3156,17 @@ class YoutubeIE(YoutubeBaseInfoExtractor):
                 sc = compat_parse_qs(fmt.get('signatureCipher'))
                 fmt_url = url_or_none(try_get(sc, lambda x: x['url'][0]))
                 encrypted_sig = try_get(sc, lambda x: x['s'][0])
-                if not (sc and fmt_url and encrypted_sig):
+                if not all((sc, fmt_url, player_url, encrypted_sig)):
                     continue
-                if not player_url:
+                try:
+                    fmt_url += '&%s=%s' % (
+                        traverse_obj(sc, ('sp', -1)) or 'signature',
+                        self._decrypt_signature(encrypted_sig, video_id, player_url)
+                    )
+                except ExtractorError as e:
+                    self.report_warning('Signature extraction failed: Some formats may be missing', only_once=True)
+                    self.write_debug(e, only_once=True)
                     continue
-                signature = self._decrypt_signature(sc['s'][0], video_id, player_url)
-                sp = try_get(sc, lambda x: x['sp'][0]) or 'signature'
-                fmt_url += '&' + sp + '=' + signature
 
             query = parse_qs(fmt_url)
             throttled = False
@@ -3164,7 +3177,8 @@ class YoutubeIE(YoutubeBaseInfoExtractor):
                 except ExtractorError as e:
                     self.report_warning(
                         'nsig extraction failed: You may experience throttling for some formats\n'
-                        f'n = {query["n"][0]} ; player = {player_url}\n{e}', only_once=True)
+                        f'n = {query["n"][0]} ; player = {player_url}', only_once=True)
+                    self.write_debug(e, only_once=True)
                     throttled = True
 
             if itag:
@@ -3669,6 +3683,7 @@ class YoutubeIE(YoutubeBaseInfoExtractor):
             info['chapters'] = (
                 self._extract_chapters_from_json(initial_data, duration)
                 or self._extract_chapters_from_engagement_panel(initial_data, duration)
+                or self._extract_chapters_from_description(video_description, duration)
                 or None)
 
         contents = traverse_obj(
