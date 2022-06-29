@@ -418,6 +418,7 @@
  - **Funk**
  - **Fusion**
  - **Fux**
+ - **FuyinTV**
  - **Gab**
  - **GabTV**
  - **Gaia**: [<abbr title="netrc machine"><em>gaia</em></abbr>]
@@ -982,6 +983,7 @@
  - **PornoVoisines**
  - **PornoXO**
  - **PornTube**
+ - **PremiershipRugby**
  - **PressTV**
  - **ProjectVeritas**
  - **prosiebensat1**: ProSiebenSat.1 Digital
@@ -1427,7 +1429,7 @@
  - **vimeo:watchlater**: [<abbr title="netrc machine"><em>vimeo</em></abbr>] Vimeo watch later list, ":vimeowatchlater" keyword (requires authentication)
  - **Vimm:recording**
  - **Vimm:stream**
- - **Vimp**
+ - **ViMP**
  - **Vimple**: Vimple - one-click video hosting
  - **Vine**
  - **vine:user**
