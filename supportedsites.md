@@ -619,6 +619,7 @@
  - **LiveJournal**
  - **livestream**
  - **livestream:original**
+ - **Livestreamfails**
  - **Lnk**
  - **LnkGo**
  - **loc**: Library of Congress
@@ -1115,6 +1116,7 @@
  - **ScreencastOMatic**
  - **ScrippsNetworks**
  - **scrippsnetworks:watch**
+ - **Scrolller**
  - **SCTE**: [<abbr title="netrc machine"><em>scte</em></abbr>]
  - **SCTECourse**: [<abbr title="netrc machine"><em>scte</em></abbr>]
  - **Seeker**
@@ -1191,6 +1193,7 @@
  - **stanfordoc**: Stanford Open ClassRoom
  - **startv**
  - **Steam**
+ - **SteamCommunityBroadcast**
  - **Stitcher**
  - **StitcherShow**
  - **StoryFire**
@@ -1430,6 +1433,7 @@
  - **Vimm:recording**
  - **Vimm:stream**
  - **ViMP**
+ - **ViMP:Playlist**
  - **Vimple**: Vimple - one-click video hosting
  - **Vine**
  - **vine:user**
