@@ -4,6 +4,25 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2023.03.04.143011
+
+#### Extractor changes
+- ESPNcricinfo
+    - [Handle new URL pattern](https://github.com/yt-dlp/yt-dlp/commit/640c934823fc2d1ec77ec932566078014058635f) ([#6321](https://github.com/yt-dlp/yt-dlp/issues/6321)) by [venkata-krishnas](https://github.com/venkata-krishnas)
+- rutube
+    - [Extract chapters from description](https://github.com/yt-dlp/yt-dlp/commit/22ccd5420b3eb0782776071f12cccd1fedaa1fd0) ([#6345](https://github.com/yt-dlp/yt-dlp/issues/6345)) by [mushbite](https://github.com/mushbite)
+- twitch
+    - [Update for GraphQL API changes](https://github.com/yt-dlp/yt-dlp/commit/4a6272c6d1bff89969b67cd22b26ebe6d7e72279) ([#6318](https://github.com/yt-dlp/yt-dlp/issues/6318)) by [elyse0](https://github.com/elyse0)
+- xvideos
+    - quickies: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/283a0b5bc511f3b350eead4488158f50c20ec526) ([#6414](https://github.com/yt-dlp/yt-dlp/issues/6414)) by [Yakabuff](https://github.com/Yakabuff)
+
+#### Misc. changes
+- build
+    - [Fix publishing to PyPI and homebrew](https://github.com/yt-dlp/yt-dlp/commit/55676fe498345a389a2539d8baaba958d6d61c3e) by [bashonly](https://github.com/bashonly)
+    - [Only archive if `vars.ARCHIVE_REPO` is set](https://github.com/yt-dlp/yt-dlp/commit/08ff6d59f97b5f5f0128f6bf6fbef56fd836cc52) by [Grub4K](https://github.com/Grub4K)
+- devscripts
+    - `make_changelog`: [Stop at `Release ...` commit](https://github.com/yt-dlp/yt-dlp/commit/7accdd9845fe7ce9d0aa5a9d16faaa489c1294eb) by [pukkandan](https://github.com/pukkandan)
+
 ### 2023.03.03
 
 #### Important changes

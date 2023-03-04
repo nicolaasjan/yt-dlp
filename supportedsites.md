@@ -1695,6 +1695,7 @@
  - **XTubeUser**: XTube user profile
  - **Xuite**: 隨意窩Xuite影音
  - **XVideos**
+ - **xvideos:quickies**
  - **XXXYMovies**
  - **Yahoo**: Yahoo screen and movies
  - **yahoo:gyao**
