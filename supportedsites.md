@@ -271,6 +271,7 @@
  - **CNNIndonesia**
  - **ComedyCentral**
  - **ComedyCentralTV**
+ - **ConanClassic**
  - **CondeNast**: Condé Nast media group: Allure, Architectural Digest, Ars Technica, Bon Appétit, Brides, Condé Nast, Condé Nast Traveler, Details, Epicurious, GQ, Glamour, Golf Digest, SELF, Teen Vogue, The New Yorker, Vanity Fair, Vogue, W Magazine, WIRED
  - **CONtv**
  - **CookingChannel**
@@ -535,6 +536,8 @@
  - **hitbox:live**
  - **HitRecord**
  - **hketv**: 香港教育局教育電視 (HKETV) Educational Television, Hong Kong Educational Bureau
+ - **HollywoodReporter**
+ - **HollywoodReporterPlaylist**
  - **Holodex**
  - **HotNewHipHop**
  - **hotstar**
@@ -600,7 +603,7 @@
  - **ivi:compilation**: ivi.ru compilations
  - **ivideon**: Ivideon TV
  - **IVXPlayer**
- - **Iwara**
+ - **iwara**
  - **iwara:playlist**
  - **iwara:user**
  - **Ixigua**
@@ -947,6 +950,7 @@
  - **NRKTVSeries**
  - **NRLTV**
  - **ntv.ru**
+ - **NubilesPorn**: [*nubiles-porn*](## "netrc machine")
  - **Nuvid**
  - **NYTimes**
  - **NYTimesArticle**
@@ -999,6 +1003,7 @@
  - **ParamountNetwork**
  - **ParamountPlus**
  - **ParamountPlusSeries**
+ - **ParamountPressExpress**
  - **Parler**: Posts on parler.com
  - **parliamentlive.tv**: UK parliament videos
  - **Parlview**
@@ -1016,6 +1021,7 @@
  - **PerformGroup**
  - **periscope**: Periscope
  - **periscope:user**: Periscope user videos
+ - **PGATour**
  - **PhilharmonieDeParis**: Philharmonie de Paris
  - **phoenix.de**
  - **Photobucket**
@@ -1427,6 +1433,7 @@
  - **TrailerAddict**: (**Currently broken**)
  - **TravelChannel**
  - **Triller**: [*triller*](## "netrc machine")
+ - **TrillerShort**
  - **TrillerUser**: [*triller*](## "netrc machine")
  - **Trilulilu**
  - **Trovo**
