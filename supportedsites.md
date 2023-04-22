@@ -189,6 +189,12 @@
  - **BoxCastVideo**
  - **Bpb**: Bundeszentrale für politische Bildung
  - **BR**: Bayerischer Rundfunk
+ - **BrainPOP**: [*brainpop*](## "netrc machine")
+ - **BrainPOPELL**: [*brainpop*](## "netrc machine")
+ - **BrainPOPEsp**: [*brainpop*](## "netrc machine") BrainPOP Español
+ - **BrainPOPFr**: [*brainpop*](## "netrc machine") BrainPOP Français
+ - **BrainPOPIl**: [*brainpop*](## "netrc machine") BrainPOP Hebrew
+ - **BrainPOPJr**: [*brainpop*](## "netrc machine")
  - **BravoTV**
  - **Break**
  - **BreitBart**
@@ -271,6 +277,7 @@
  - **CNNIndonesia**
  - **ComedyCentral**
  - **ComedyCentralTV**
+ - **ConanClassic**
  - **CondeNast**: Condé Nast media group: Allure, Architectural Digest, Ars Technica, Bon Appétit, Brides, Condé Nast, Condé Nast Traveler, Details, Epicurious, GQ, Glamour, Golf Digest, SELF, Teen Vogue, The New Yorker, Vanity Fair, Vogue, W Magazine, WIRED
  - **CONtv**
  - **CookingChannel**
@@ -497,6 +504,7 @@
  - **GloboArticle**
  - **glomex**: Glomex videos
  - **glomex:embed**: Glomex embedded videos
+ - **GMANetworkVideo**
  - **Go**
  - **GoDiscovery**
  - **GodTube**
@@ -535,6 +543,8 @@
  - **hitbox:live**
  - **HitRecord**
  - **hketv**: 香港教育局教育電視 (HKETV) Educational Television, Hong Kong Educational Bureau
+ - **HollywoodReporter**
+ - **HollywoodReporterPlaylist**
  - **Holodex**
  - **HotNewHipHop**
  - **hotstar**
@@ -600,7 +610,7 @@
  - **ivi:compilation**: ivi.ru compilations
  - **ivideon**: Ivideon TV
  - **IVXPlayer**
- - **Iwara**
+ - **iwara**
  - **iwara:playlist**
  - **iwara:user**
  - **Ixigua**
@@ -678,8 +688,6 @@
  - **limelight**
  - **limelight:channel**
  - **limelight:channel_list**
- - **LineLive**
- - **LineLiveChannel**
  - **LinkedIn**: [*linkedin*](## "netrc machine")
  - **linkedin:learning**: [*linkedin*](## "netrc machine")
  - **linkedin:​learning:course**: [*linkedin*](## "netrc machine")
@@ -893,6 +901,8 @@
  - **NhkForSchoolBangumi**
  - **NhkForSchoolProgramList**
  - **NhkForSchoolSubject**: Portal page for each school subjects, like Japanese (kokugo, 国語) or math (sansuu/suugaku or 算数・数学)
+ - **NhkRadioNewsPage**
+ - **NhkRadiru**: NHK らじる (Radiru/Rajiru)
  - **NhkVod**
  - **NhkVodProgram**
  - **nhl.com**
@@ -947,6 +957,7 @@
  - **NRKTVSeries**
  - **NRLTV**
  - **ntv.ru**
+ - **NubilesPorn**: [*nubiles-porn*](## "netrc machine")
  - **Nuvid**
  - **NYTimes**
  - **NYTimesArticle**
@@ -999,6 +1010,7 @@
  - **ParamountNetwork**
  - **ParamountPlus**
  - **ParamountPlusSeries**
+ - **ParamountPressExpress**
  - **Parler**: Posts on parler.com
  - **parliamentlive.tv**: UK parliament videos
  - **Parlview**
@@ -1016,6 +1028,7 @@
  - **PerformGroup**
  - **periscope**: Periscope
  - **periscope:user**: Periscope user videos
+ - **PGATour**
  - **PhilharmonieDeParis**: Philharmonie de Paris
  - **phoenix.de**
  - **Photobucket**
@@ -1315,6 +1328,7 @@
  - **sr:mediathek**: Saarländischer Rundfunk
  - **SRGSSR**
  - **SRGSSRPlay**: srf.ch, rts.ch, rsi.ch, rtr.ch and swissinfo.ch play sites
+ - **StagePlusVODConcert**: [*stageplus*](## "netrc machine")
  - **stanfordoc**: Stanford Open ClassRoom
  - **StarTrek**
  - **startv**
@@ -1427,6 +1441,7 @@
  - **TrailerAddict**: (**Currently broken**)
  - **TravelChannel**
  - **Triller**: [*triller*](## "netrc machine")
+ - **TrillerShort**
  - **TrillerUser**: [*triller*](## "netrc machine")
  - **Trilulilu**
  - **Trovo**
@@ -1660,7 +1675,9 @@
  - **WeiqiTV**: WQTV
  - **wetv:episode**
  - **WeTvSeries**
+ - **WeVidi**
  - **whowatch**
+ - **Whyp**
  - **wikimedia.org**
  - **Willow**
  - **WimTV**
@@ -1701,8 +1718,6 @@
  - **xvideos:quickies**
  - **XXXYMovies**
  - **Yahoo**: Yahoo screen and movies
- - **yahoo:gyao**
- - **yahoo:​gyao:player**
  - **yahoo:japannews**: Yahoo! Japan News
  - **YandexDisk**
  - **yandexmusic:album**: Яндекс.Музыка - Альбом
