@@ -4,6 +4,31 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2023.07.03.034034
+
+#### Core changes
+- [Bugfix for b4e0d75848e9447cee2cd3646ce54d4744a7ff56](https://github.com/yt-dlp/yt-dlp/commit/e59e20744eb32ce4b6ea0dece7c673be8376a710) by [pukkandan](https://github.com/pukkandan)
+- **utils**: clean_podcast_url: [Handle protocol in redirect URL](https://github.com/yt-dlp/yt-dlp/commit/91302ed349f34dc26cc1d661bb45a4b71f4417f7) by [pukkandan](https://github.com/pukkandan)
+
+#### Extractor changes
+- **abc**: [Fix extraction](https://github.com/yt-dlp/yt-dlp/commit/8f05fbae2a79ce0713077ccc68b354e63216bf20) ([#7434](https://github.com/yt-dlp/yt-dlp/issues/7434)) by [meliber](https://github.com/meliber)
+- **AdultSwim**: [Extract subtitles from m3u8](https://github.com/yt-dlp/yt-dlp/commit/5e16cf92eb496b7c1541a6b1d727cb87542984db) ([#7421](https://github.com/yt-dlp/yt-dlp/issues/7421)) by [nnoboa](https://github.com/nnoboa)
+- **crunchyroll**: music: [Fix `_VALID_URL`](https://github.com/yt-dlp/yt-dlp/commit/5b4b92769afcc398475e481bfa839f1158902fe9) ([#7439](https://github.com/yt-dlp/yt-dlp/issues/7439)) by [AmanSal1](https://github.com/AmanSal1), [rdamas](https://github.com/rdamas)
+- **Douyin**: [Fix extraction from webpage](https://github.com/yt-dlp/yt-dlp/commit/a2be9781fbf4d7e4db245c277ca2ecc41cf3a7b2) by [bashonly](https://github.com/bashonly)
+- **kick**: [Fix `_VALID_URL`](https://github.com/yt-dlp/yt-dlp/commit/ef8509c300ea50da86aea447eb214d3d6f6db6bb) by [bashonly](https://github.com/bashonly)
+- **qdance**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/f0a1ff118145b6449982ba401f9a9f656ecd8062) ([#7420](https://github.com/yt-dlp/yt-dlp/issues/7420)) by [bashonly](https://github.com/bashonly)
+- **sbs**: [Python 3.7 compat](https://github.com/yt-dlp/yt-dlp/commit/f393bbe724b1fc6c7f754a5da507e807b2b40ad2) by [pukkandan](https://github.com/pukkandan)
+- **stacommu**: [Add extractors](https://github.com/yt-dlp/yt-dlp/commit/af1fd12f675220df6793fc019dff320bc76e8080) ([#7432](https://github.com/yt-dlp/yt-dlp/issues/7432)) by [urectanc](https://github.com/urectanc)
+- **vk**: VKPlay, VKPlayLive: [Add extractors](https://github.com/yt-dlp/yt-dlp/commit/8776349ef6b1f644584a92dfa00a05208a48edc4) ([#7358](https://github.com/yt-dlp/yt-dlp/issues/7358)) by [c-basalt](https://github.com/c-basalt)
+- **youtube**
+    - [Add extractor-arg `formats`](https://github.com/yt-dlp/yt-dlp/commit/58786a10f212bd63f9ad1d0b4d9e4d31c3b385e2) by [pukkandan](https://github.com/pukkandan)
+    - [Fix comments' `is_favorited`](https://github.com/yt-dlp/yt-dlp/commit/89bed013741a776506f60380b7fd89d27d0710b4) ([#7390](https://github.com/yt-dlp/yt-dlp/issues/7390)) by [bbilly1](https://github.com/bbilly1)
+    - [Process `post_live` over 2 hours](https://github.com/yt-dlp/yt-dlp/commit/d949c10c45bfc359bdacd52e6a180169b8128958) by [pukkandan](https://github.com/pukkandan)
+    - tab: [Support shorts-only playlists](https://github.com/yt-dlp/yt-dlp/commit/fcbc9ed760be6e3455bbadfaf277b4504b06f068) ([#7425](https://github.com/yt-dlp/yt-dlp/issues/7425)) by [coletdjnz](https://github.com/coletdjnz)
+
+#### Downloader changes
+- **aria2c**: [Add `--no-conf`](https://github.com/yt-dlp/yt-dlp/commit/8a8af356e3bba98a7f7d333aff0777d5d92130c8) by [pukkandan](https://github.com/pukkandan)
+
 ### 2023.06.22
 
 #### Core changes
