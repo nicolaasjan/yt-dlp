@@ -4,6 +4,14 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2023.07.07.051039
+
+#### Core changes
+- [Revert 49296437a8e5fa91dacb5446e51ab588474c85d3](https://github.com/yt-dlp/yt-dlp/commit/b03fa7834579a01cc5fba48c0e73488a16683d48) by [pukkandan](https://github.com/pukkandan)
+
+#### Extractor changes
+- **twitter**: [Fix GraphQL and legacy API](https://github.com/yt-dlp/yt-dlp/commit/92315c03774cfabb3a921884326beb4b981f786b) ([#7516](https://github.com/yt-dlp/yt-dlp/issues/7516)) by [bashonly](https://github.com/bashonly)
+
 ### 2023.07.06
 
 #### Important changes
