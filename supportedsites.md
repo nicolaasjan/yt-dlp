@@ -162,6 +162,7 @@
  - **BilibiliAudioAlbum**
  - **BiliBiliBangumi**
  - **BiliBiliBangumiMedia**
+ - **BiliBiliBangumiSeason**
  - **BiliBiliPlayer**
  - **BiliBiliSearch**: Bilibili video search; "bilisearch:" prefix
  - **BilibiliSpaceAudio**
@@ -1378,7 +1379,6 @@
  - **StoryFireSeries**
  - **StoryFireUser**
  - **Streamable**
- - **Streamanity**
  - **streamcloud.eu**
  - **StreamCZ**
  - **StreamFF**

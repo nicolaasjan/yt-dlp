@@ -4,6 +4,21 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2023.07.14.035816
+
+#### Core changes
+- [Revert 49296437a8e5fa91dacb5446e51ab588474c85d3](https://github.com/yt-dlp/yt-dlp/commit/b03fa7834579a01cc5fba48c0e73488a16683d48) by [pukkandan](https://github.com/pukkandan)
+- **utils**: `clean_podcast_url`: [Handle more trackers](https://github.com/yt-dlp/yt-dlp/commit/2af4eeb77246b8183aae75a0a8d19f18c08115b2) ([#7556](https://github.com/yt-dlp/yt-dlp/issues/7556)) by [bashonly](https://github.com/bashonly), [mabdelfattah](https://github.com/mabdelfattah)
+
+#### Extractor changes
+- **BiliBiliBangumi**: [Fix extractors](https://github.com/yt-dlp/yt-dlp/commit/bdd0b75e3f41ff35440eda6d395008beef19ef2f) ([#7337](https://github.com/yt-dlp/yt-dlp/issues/7337)) by [GD-Slime](https://github.com/GD-Slime)
+- **streamanity**: [Remove](https://github.com/yt-dlp/yt-dlp/commit/2cfe221fbbe46faa3f46552c08d947a51f424903) ([#7571](https://github.com/yt-dlp/yt-dlp/issues/7571)) by [alerikaisattera](https://github.com/alerikaisattera)
+- **twitter**: [Fix GraphQL and legacy API](https://github.com/yt-dlp/yt-dlp/commit/92315c03774cfabb3a921884326beb4b981f786b) ([#7516](https://github.com/yt-dlp/yt-dlp/issues/7516)) by [bashonly](https://github.com/bashonly)
+- **vrt**: [Update token signing key](https://github.com/yt-dlp/yt-dlp/commit/325191d0c9bf3fe257b8a7c2eb95080f44f6ddfc) ([#7519](https://github.com/yt-dlp/yt-dlp/issues/7519)) by [Zprokkel](https://github.com/Zprokkel)
+
+#### Postprocessor changes
+- **EmbedThumbnail**: [Support `m4v`](https://github.com/yt-dlp/yt-dlp/commit/8a4cd12c8f8e93292e3e95200b9d17a3af39624c) ([#7583](https://github.com/yt-dlp/yt-dlp/issues/7583)) by [Neurognostic](https://github.com/Neurognostic)
+
 ### 2023.07.06
 
 #### Important changes
