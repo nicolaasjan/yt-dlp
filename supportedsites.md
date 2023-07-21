@@ -162,6 +162,7 @@
  - **BilibiliAudioAlbum**
  - **BiliBiliBangumi**
  - **BiliBiliBangumiMedia**
+ - **BiliBiliBangumiSeason**
  - **BiliBiliPlayer**
  - **BiliBiliSearch**: Bilibili video search; "bilisearch:" prefix
  - **BilibiliSpaceAudio**
@@ -732,6 +733,7 @@
  - **lynda**: [*lynda*](## "netrc machine") lynda.com videos
  - **lynda:course**: [*lynda*](## "netrc machine") lynda.com online courses
  - **m6**
+ - **MagellanTV**
  - **MagentaMusik360**
  - **mailru**: Видео@Mail.Ru
  - **mailru:music**: Музыка@Mail.Ru
@@ -840,6 +842,7 @@
  - **MujRozhlas**
  - **Murrtube**
  - **MurrtubeUser**: Murrtube user profile
+ - **MuseAI**
  - **MuseScore**
  - **MusicdexAlbum**
  - **MusicdexArtist**
@@ -1378,7 +1381,6 @@
  - **StoryFireSeries**
  - **StoryFireUser**
  - **Streamable**
- - **Streamanity**
  - **streamcloud.eu**
  - **StreamCZ**
  - **StreamFF**
