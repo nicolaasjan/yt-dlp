@@ -4,6 +4,58 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2023.07.22.103231
+
+#### Core changes
+- [Fix HTTP headers and cookie handling](https://github.com/yt-dlp/yt-dlp/commit/6c5211cebeacfc53ad5d5ddf4a659be76039656f) by [bashonly](https://github.com/bashonly), [pukkandan](https://github.com/pukkandan)
+- **compat**: [Add `types.NoneType`](https://github.com/yt-dlp/yt-dlp/commit/e0c4db04dc82a699bdabd9821ddc239ebe17d30a) by [pukkandan](https://github.com/pukkandan) (With fixes in [25b6e8f](https://github.com/yt-dlp/yt-dlp/commit/25b6e8f94679b4458550702b46e61249b875a4fd)
+)
+- **compat, networking**: [Deprecate old functions](https://github.com/yt-dlp/yt-dlp/commit/3d2623a898196640f7cc0fc8b70118ff19e6925d) ([#2861](https://github.com/yt-dlp/yt-dlp/issues/2861)) by [coletdjnz](https://github.com/coletdjnz), [pukkandan](https://github.com/pukkandan)
+- **networking**
+    - [Add module](https://github.com/yt-dlp/yt-dlp/commit/c365dba8430ee33abda85d31f95128605bf240eb) ([#2861](https://github.com/yt-dlp/yt-dlp/issues/2861)) by [pukkandan](https://github.com/pukkandan)
+    - [Fix POST requests with zero-length payloads](https://github.com/yt-dlp/yt-dlp/commit/71baa490ebd3655746430f208a9b605d120cd315) ([#7648](https://github.com/yt-dlp/yt-dlp/issues/7648)) by [bashonly](https://github.com/bashonly)
+    - [Fix `--legacy-server-connect`](https://github.com/yt-dlp/yt-dlp/commit/75dc8e673b481a82d0688aeec30f6c65d82bb359) ([#7645](https://github.com/yt-dlp/yt-dlp/issues/7645)) by [bashonly](https://github.com/bashonly)
+    - [Rewrite architecture](https://github.com/yt-dlp/yt-dlp/commit/227bf1a33be7b89cd7d44ad046844c4ccba104f4) ([#2861](https://github.com/yt-dlp/yt-dlp/issues/2861)) by [coletdjnz](https://github.com/coletdjnz)
+- **outtmpl**: [Fix replacement for `playlist_index`](https://github.com/yt-dlp/yt-dlp/commit/a264433c9fba147ecae2420091614186cfeeb895) by [pukkandan](https://github.com/pukkandan)
+- **utils**
+    - [Add temporary shim for logging](https://github.com/yt-dlp/yt-dlp/commit/1b392f905d20ef1f1b300b180f867d43c9ce49b8) by [pukkandan](https://github.com/pukkandan)
+    - [Improve `parse_duration`](https://github.com/yt-dlp/yt-dlp/commit/af86873218c24c3859ccf575a87f2b00a73b49d0) by [bashonly](https://github.com/bashonly)
+    - `clean_podcast_url`: [Handle more trackers](https://github.com/yt-dlp/yt-dlp/commit/2af4eeb77246b8183aae75a0a8d19f18c08115b2) ([#7556](https://github.com/yt-dlp/yt-dlp/issues/7556)) by [bashonly](https://github.com/bashonly), [mabdelfattah](https://github.com/mabdelfattah)
+
+#### Extractor changes
+- [Fix `--load-pages`](https://github.com/yt-dlp/yt-dlp/commit/81b4712bca608b9015aa68a4d96661d56e9cb894) by [pukkandan](https://github.com/pukkandan)
+- **abematv**: [Temporary fix for protocol handler](https://github.com/yt-dlp/yt-dlp/commit/9f66247289b9f8ecf931833b3f5f127274dd2161) by [pukkandan](https://github.com/pukkandan)
+- **BiliBiliBangumi**: [Fix extractors](https://github.com/yt-dlp/yt-dlp/commit/bdd0b75e3f41ff35440eda6d395008beef19ef2f) ([#7337](https://github.com/yt-dlp/yt-dlp/issues/7337)) by [GD-Slime](https://github.com/GD-Slime)
+- **crunchyroll**: [Remove initial state extraction](https://github.com/yt-dlp/yt-dlp/commit/9b16762f48914de9ac914601769c76668e433325) ([#7632](https://github.com/yt-dlp/yt-dlp/issues/7632)) by [Grub4K](https://github.com/Grub4K)
+- **facebook**: reel: [Fix extraction](https://github.com/yt-dlp/yt-dlp/commit/bb5d84c9d2f1e978c3eddfb5ccbe138036682a36) ([#7564](https://github.com/yt-dlp/yt-dlp/issues/7564)) by [bashonly](https://github.com/bashonly), [demon071](https://github.com/demon071)
+- **generic**: [Fix generic title for embeds](https://github.com/yt-dlp/yt-dlp/commit/994f7ef8e6003f4b7b258528755d0b6adcc31714) by [pukkandan](https://github.com/pukkandan)
+- **MagellanTV**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/f4ea501551526ebcb54d19b84cf0ebe798583a85) ([#7616](https://github.com/yt-dlp/yt-dlp/issues/7616)) by [bashonly](https://github.com/bashonly)
+- **MuseAI**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/65cfa2b057d7946fbe322155a778fe206556d0c6) ([#7614](https://github.com/yt-dlp/yt-dlp/issues/7614)) by [bashonly](https://github.com/bashonly)
+- **piapro**: [Support `/content` URL](https://github.com/yt-dlp/yt-dlp/commit/1bcb9fe8715b1f288efc322be3de409ee0597080) ([#7592](https://github.com/yt-dlp/yt-dlp/issues/7592)) by [FinnRG](https://github.com/FinnRG)
+- **pornhub**: [Update access cookies for UK](https://github.com/yt-dlp/yt-dlp/commit/1d3d579c2142f69831b6ae140e1d8e824e07fa0e) ([#7591](https://github.com/yt-dlp/yt-dlp/issues/7591)) by [zhong-yiyu](https://github.com/zhong-yiyu)
+- **streamanity**: [Remove](https://github.com/yt-dlp/yt-dlp/commit/2cfe221fbbe46faa3f46552c08d947a51f424903) ([#7571](https://github.com/yt-dlp/yt-dlp/issues/7571)) by [alerikaisattera](https://github.com/alerikaisattera)
+- **twitter**
+    - [Fix GraphQL and legacy API](https://github.com/yt-dlp/yt-dlp/commit/92315c03774cfabb3a921884326beb4b981f786b) ([#7516](https://github.com/yt-dlp/yt-dlp/issues/7516)) by [bashonly](https://github.com/bashonly)
+    - [Revert 92315c03774cfabb3a921884326beb4b981f786b](https://github.com/yt-dlp/yt-dlp/commit/b03fa7834579a01cc5fba48c0e73488a16683d48)
+    - spaces: [Fix format protocol](https://github.com/yt-dlp/yt-dlp/commit/613dbce177d34ffc31053e8e01acf4bb107bcd1e) ([#7550](https://github.com/yt-dlp/yt-dlp/issues/7550)) by [bashonly](https://github.com/bashonly)
+- **unsupported**: [List more sites with DRM](https://github.com/yt-dlp/yt-dlp/commit/e7057383380d7d53815f8feaf90ca3dcbde88983) by [pukkandan](https://github.com/pukkandan)
+- **vrt**: [Update token signing key](https://github.com/yt-dlp/yt-dlp/commit/325191d0c9bf3fe257b8a7c2eb95080f44f6ddfc) ([#7519](https://github.com/yt-dlp/yt-dlp/issues/7519)) by [Zprokkel](https://github.com/Zprokkel)
+- **youtube**: tab: [Detect looping feeds](https://github.com/yt-dlp/yt-dlp/commit/1ba6fe9db5f660d5538588315c23ad6cf0371c5f) ([#6621](https://github.com/yt-dlp/yt-dlp/issues/6621)) by [coletdjnz](https://github.com/coletdjnz)
+
+#### Downloader changes
+- **external**
+    - [Fix ffmpeg input from stdin](https://github.com/yt-dlp/yt-dlp/commit/e57eb98222d29cc4c09ee975d3c492274a6e5be3) ([#7655](https://github.com/yt-dlp/yt-dlp/issues/7655)) by [bashonly](https://github.com/bashonly)
+    - [Fixes to cookie handling](https://github.com/yt-dlp/yt-dlp/commit/42ded0a429c20ec13dc006825e1508d9a02f0ad4) by [bashonly](https://github.com/bashonly)
+
+#### Postprocessor changes
+- **EmbedThumbnail**: [Support `m4v`](https://github.com/yt-dlp/yt-dlp/commit/8a4cd12c8f8e93292e3e95200b9d17a3af39624c) ([#7583](https://github.com/yt-dlp/yt-dlp/issues/7583)) by [Neurognostic](https://github.com/Neurognostic)
+
+#### Misc. changes
+- **build**: [Make sure deprecated modules are added](https://github.com/yt-dlp/yt-dlp/commit/131d132da5c98c6c78bd7eed4b37f4458561b3d9) by [pukkandan](https://github.com/pukkandan)
+- **cleanup**
+    - [Add color to `download-archive` message](https://github.com/yt-dlp/yt-dlp/commit/2b029ca0a9f9105c4f7626993fa60e54c9782749) ([#5138](https://github.com/yt-dlp/yt-dlp/issues/5138)) by [aaruni96](https://github.com/aaruni96), [Grub4K](https://github.com/Grub4K), [pukkandan](https://github.com/pukkandan)
+    - Miscellaneous: [62b5c94](https://github.com/yt-dlp/yt-dlp/commit/62b5c94cadaa5f596dc1a7083db9db12efe357be) by [pukkandan](https://github.com/pukkandan)
+
 ### 2023.07.06
 
 #### Important changes
