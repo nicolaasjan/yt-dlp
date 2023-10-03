@@ -4,6 +4,12 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2023.10.03.175002
+
+#### Extractor changes
+- **xhamster**: user: [Support creator urls](https://github.com/yt-dlp/yt-dlp/commit/cc8d8441524ec3442d7c0d3f8f33f15b66aa06f3) ([#8232](https://github.com/yt-dlp/yt-dlp/issues/8232)) by [Grub4K](https://github.com/Grub4K)
+- **youtube**: [Raise a warning for `Incomplete Data` instead of an error](https://github.com/yt-dlp/yt-dlp/commit/eb5bdbfa70126c7d5355cc0954b63720522e462c) ([#8238](https://github.com/yt-dlp/yt-dlp/issues/8238)) by [coletdjnz](https://github.com/coletdjnz)
+
 ### 2023.09.24
 
 #### Important changes
