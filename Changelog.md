@@ -4,6 +4,14 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2023.10.05.043624
+
+#### Extractor changes
+- **gofile**: [Fix token cookie bug](https://github.com/yt-dlp/yt-dlp/commit/0730d5a966fa8a937d84bfb7f68be5198acb039b) by [bashonly](https://github.com/bashonly)
+- **wrestleuniversevod**: [Call API with device ID](https://github.com/yt-dlp/yt-dlp/commit/b095fd3fa9d58a65dc9b830bd63b9d909422aa86) ([#8272](https://github.com/yt-dlp/yt-dlp/issues/8272)) by [bashonly](https://github.com/bashonly)
+- **xhamster**: user: [Support creator urls](https://github.com/yt-dlp/yt-dlp/commit/cc8d8441524ec3442d7c0d3f8f33f15b66aa06f3) ([#8232](https://github.com/yt-dlp/yt-dlp/issues/8232)) by [Grub4K](https://github.com/Grub4K)
+- **youtube**: [Raise a warning for `Incomplete Data` instead of an error](https://github.com/yt-dlp/yt-dlp/commit/eb5bdbfa70126c7d5355cc0954b63720522e462c) ([#8238](https://github.com/yt-dlp/yt-dlp/issues/8238)) by [coletdjnz](https://github.com/coletdjnz)
+
 ### 2023.09.24
 
 #### Important changes
