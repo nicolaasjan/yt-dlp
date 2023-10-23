@@ -4,6 +4,17 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2023.10.23.180445
+
+#### Core changes
+- [Only ensure playlist thumbnail dir if writing thumbs](https://github.com/yt-dlp/yt-dlp/commit/a40e0b37dfc8c26916b0e01aa3f29f3bc42250b6) ([#8373](https://github.com/yt-dlp/yt-dlp/issues/8373)) by [bashonly](https://github.com/bashonly)
+
+#### Networking changes
+- **Request Handler**: requests: [Add handler for `requests` HTTP library](https://github.com/yt-dlp/yt-dlp/commit/8a8b54523addf46dfd50ef599761a81bc22362e6) ([#3668](https://github.com/yt-dlp/yt-dlp/issues/3668)) by [bashonly](https://github.com/bashonly), [coletdjnz](https://github.com/coletdjnz), [Grub4K](https://github.com/Grub4K) (With fixes in [4e38e2a](https://github.com/yt-dlp/yt-dlp/commit/4e38e2ae9d7380015349e6aee59c78bb3938befd))
+
+#### Misc. changes
+- **ci**: [Run core tests with dependencies](https://github.com/yt-dlp/yt-dlp/commit/700444c23ddb65f618c2abd942acdc0c58c650b1) by [bashonly](https://github.com/bashonly), [coletdjnz](https://github.com/coletdjnz)
+
 ### 2023.10.13
 
 #### Core changes
