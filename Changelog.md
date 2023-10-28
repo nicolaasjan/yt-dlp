@@ -4,6 +4,23 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2023.10.28.032526
+
+#### Core changes
+- [Only ensure playlist thumbnail dir if writing thumbs](https://github.com/yt-dlp/yt-dlp/commit/a40e0b37dfc8c26916b0e01aa3f29f3bc42250b6) ([#8373](https://github.com/yt-dlp/yt-dlp/issues/8373)) by [bashonly](https://github.com/bashonly)
+
+#### Extractor changes
+- **generic**: [Improve direct video link ext detection](https://github.com/yt-dlp/yt-dlp/commit/4ce2f29a50fcfb9920e6f2ffe42192945a2bad7e) ([#8340](https://github.com/yt-dlp/yt-dlp/issues/8340)) by [bashonly](https://github.com/bashonly)
+- **npo**: [Send `POST` request to streams API endpoint](https://github.com/yt-dlp/yt-dlp/commit/8e02a4dcc800f9444e9d461edc41edd7b662f435) ([#8413](https://github.com/yt-dlp/yt-dlp/issues/8413)) by [bartbroere](https://github.com/bartbroere)
+- **qdance**: [Update `_VALID_URL`](https://github.com/yt-dlp/yt-dlp/commit/177f0d963e4b9db749805c482e6f288354c8be84) ([#8426](https://github.com/yt-dlp/yt-dlp/issues/8426)) by [bashonly](https://github.com/bashonly)
+- **twitcasting**: [Fix livestream extraction](https://github.com/yt-dlp/yt-dlp/commit/7b8b1cf5eb8bf44ce70bc24e1f56f0dba2737e98) ([#8427](https://github.com/yt-dlp/yt-dlp/issues/8427)) by [JC-Chung](https://github.com/JC-Chung), [saintliao](https://github.com/saintliao)
+
+#### Networking changes
+- **Request Handler**: requests: [Add handler for `requests` HTTP library](https://github.com/yt-dlp/yt-dlp/commit/8a8b54523addf46dfd50ef599761a81bc22362e6) ([#3668](https://github.com/yt-dlp/yt-dlp/issues/3668)) by [bashonly](https://github.com/bashonly), [coletdjnz](https://github.com/coletdjnz), [Grub4K](https://github.com/Grub4K) (With fixes in [4e38e2a](https://github.com/yt-dlp/yt-dlp/commit/4e38e2ae9d7380015349e6aee59c78bb3938befd))
+
+#### Misc. changes
+- **ci**: [Run core tests with dependencies](https://github.com/yt-dlp/yt-dlp/commit/700444c23ddb65f618c2abd942acdc0c58c650b1) by [bashonly](https://github.com/bashonly), [coletdjnz](https://github.com/coletdjnz)
+
 ### 2023.10.13
 
 #### Core changes
