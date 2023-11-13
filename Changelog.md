@@ -4,6 +4,60 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2023.11.13.040913
+
+#### Core changes
+- [Add `--compat-option manifest-filesize-approx`](https://github.com/yt-dlp/yt-dlp/commit/10025b715ea01489557eb2c5a3cc04d361fcdb52) ([#8356](https://github.com/yt-dlp/yt-dlp/issues/8356)) by [bashonly](https://github.com/bashonly)
+- [Fix format sorting with `--load-info-json`](https://github.com/yt-dlp/yt-dlp/commit/595ea4a99b726b8fe9463e7853b7053978d0544e) ([#8521](https://github.com/yt-dlp/yt-dlp/issues/8521)) by [bashonly](https://github.com/bashonly)
+- [Include build origin in verbose output](https://github.com/yt-dlp/yt-dlp/commit/20314dd46f25e0e0a7e985a7804049aefa8b909f) by [bashonly](https://github.com/bashonly), [Grub4K](https://github.com/Grub4K)
+- [Only ensure playlist thumbnail dir if writing thumbs](https://github.com/yt-dlp/yt-dlp/commit/a40e0b37dfc8c26916b0e01aa3f29f3bc42250b6) ([#8373](https://github.com/yt-dlp/yt-dlp/issues/8373)) by [bashonly](https://github.com/bashonly)
+- **update**: [Overhaul self-updater](https://github.com/yt-dlp/yt-dlp/commit/0b6ad22e6a432006a75df968f0283e6c6b3cfae6) by [bashonly](https://github.com/bashonly), [Grub4K](https://github.com/Grub4K)
+
+#### Extractor changes
+- **brilliantpala**: [Fix cookies support](https://github.com/yt-dlp/yt-dlp/commit/9b5bedf13a3323074daceb0ec6ebb3cc6e0b9684) ([#8352](https://github.com/yt-dlp/yt-dlp/issues/8352)) by [pzhlkj6612](https://github.com/pzhlkj6612)
+- **generic**: [Improve direct video link ext detection](https://github.com/yt-dlp/yt-dlp/commit/4ce2f29a50fcfb9920e6f2ffe42192945a2bad7e) ([#8340](https://github.com/yt-dlp/yt-dlp/issues/8340)) by [bashonly](https://github.com/bashonly)
+- **laxarxames**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/312a2d1e8bc247264f9d85c5ec764e33aa0133b5) ([#8412](https://github.com/yt-dlp/yt-dlp/issues/8412)) by [aniolpages](https://github.com/aniolpages)
+- **n-tv.de**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/8afd9468b0c822843bc480d366d1c86698daabfb) ([#8414](https://github.com/yt-dlp/yt-dlp/issues/8414)) by [1100101](https://github.com/1100101)
+- **neteasemusic**: [Improve metadata extraction](https://github.com/yt-dlp/yt-dlp/commit/46acc418a53470b7f32581b3309c3cb87aa8488d) ([#8531](https://github.com/yt-dlp/yt-dlp/issues/8531)) by [LoserFox](https://github.com/LoserFox)
+- **nhk**: [Improve metadata extraction](https://github.com/yt-dlp/yt-dlp/commit/54579be4364e148277c32e20a5c3efc2c3f52f5b) ([#8388](https://github.com/yt-dlp/yt-dlp/issues/8388)) by [garret1317](https://github.com/garret1317)
+- **novaembed**: [Improve `_VALID_URL`](https://github.com/yt-dlp/yt-dlp/commit/3ff494f6f41c27549420fa88be27555bd449ffdc) ([#8368](https://github.com/yt-dlp/yt-dlp/issues/8368)) by [peci1](https://github.com/peci1)
+- **npo**: [Send `POST` request to streams API endpoint](https://github.com/yt-dlp/yt-dlp/commit/8e02a4dcc800f9444e9d461edc41edd7b662f435) ([#8413](https://github.com/yt-dlp/yt-dlp/issues/8413)) by [bartbroere](https://github.com/bartbroere)
+- **ondemandkorea**: [Overhaul extractor](https://github.com/yt-dlp/yt-dlp/commit/05adfd883a4f2ecae0267e670a62a2e45c351aeb) ([#8386](https://github.com/yt-dlp/yt-dlp/issues/8386)) by [seproDev](https://github.com/seproDev)
+- **orf**: podcast: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/6ba3085616652cbf05d1858efc321fdbfc4c6119) ([#8486](https://github.com/yt-dlp/yt-dlp/issues/8486)) by [Esokrates](https://github.com/Esokrates)
+- **polskieradio**: audition: [Fix playlist extraction](https://github.com/yt-dlp/yt-dlp/commit/464327acdb353ceb91d2115163a5a9621b22fe0d) ([#8459](https://github.com/yt-dlp/yt-dlp/issues/8459)) by [shubhexists](https://github.com/shubhexists)
+- **qdance**: [Update `_VALID_URL`](https://github.com/yt-dlp/yt-dlp/commit/177f0d963e4b9db749805c482e6f288354c8be84) ([#8426](https://github.com/yt-dlp/yt-dlp/issues/8426)) by [bashonly](https://github.com/bashonly)
+- **radiocomercial**: [Add extractors](https://github.com/yt-dlp/yt-dlp/commit/ef12dbdcd3e7264bd3d744c1e3107597bd23ad35) ([#8508](https://github.com/yt-dlp/yt-dlp/issues/8508)) by [SirElderling](https://github.com/SirElderling)
+- **sbs.co.kr**: [Add extractors](https://github.com/yt-dlp/yt-dlp/commit/25a4bd345a0dcfece6fef752d4537eb403da94d9) ([#8326](https://github.com/yt-dlp/yt-dlp/issues/8326)) by [seproDev](https://github.com/seproDev)
+- **theatercomplextown**: [Add extractors](https://github.com/yt-dlp/yt-dlp/commit/2863fcf2b6876d0c7965ff7d6d9242eea653dc6b) ([#8560](https://github.com/yt-dlp/yt-dlp/issues/8560)) by [bashonly](https://github.com/bashonly)
+- **thisav**: [Remove](https://github.com/yt-dlp/yt-dlp/commit/cb480e390d85fb3a598c1b6d5eef3438ce729fc9) ([#8346](https://github.com/yt-dlp/yt-dlp/issues/8346)) by [bashonly](https://github.com/bashonly)
+- **thisoldhouse**: [Add login support](https://github.com/yt-dlp/yt-dlp/commit/c76c96677ff6a056f5844a568ef05ee22c46d6f4) ([#8561](https://github.com/yt-dlp/yt-dlp/issues/8561)) by [bashonly](https://github.com/bashonly)
+- **twitcasting**: [Fix livestream extraction](https://github.com/yt-dlp/yt-dlp/commit/7b8b1cf5eb8bf44ce70bc24e1f56f0dba2737e98) ([#8427](https://github.com/yt-dlp/yt-dlp/issues/8427)) by [JC-Chung](https://github.com/JC-Chung), [saintliao](https://github.com/saintliao)
+- **twitter**
+    - broadcast
+        - [Improve metadata extraction](https://github.com/yt-dlp/yt-dlp/commit/7d337ca977d73a0a6c07ab481ed8faa8f6ff8726) ([#8383](https://github.com/yt-dlp/yt-dlp/issues/8383)) by [HitomaruKonpaku](https://github.com/HitomaruKonpaku)
+        - [Support `--wait-for-video`](https://github.com/yt-dlp/yt-dlp/commit/f6e97090d2ed9e05441ab0f4bec3559b816d7a00) ([#8475](https://github.com/yt-dlp/yt-dlp/issues/8475)) by [bashonly](https://github.com/bashonly)
+- **weibo**: [Fix extraction](https://github.com/yt-dlp/yt-dlp/commit/15b252dfd2c6807fe57afc5a95e59abadb32ccd2) ([#8463](https://github.com/yt-dlp/yt-dlp/issues/8463)) by [c-basalt](https://github.com/c-basalt)
+- **weverse**: [Fix login error handling](https://github.com/yt-dlp/yt-dlp/commit/4a601c9eff9fb42e24a4c8da3fa03628e035b35b) ([#8458](https://github.com/yt-dlp/yt-dlp/issues/8458)) by [seproDev](https://github.com/seproDev)
+- **youtube**: [Check newly uploaded iOS HLS formats](https://github.com/yt-dlp/yt-dlp/commit/ef79d20dc9d27ac002a7196f073b37f2f2721aed) ([#8336](https://github.com/yt-dlp/yt-dlp/issues/8336)) by [bashonly](https://github.com/bashonly)
+- **zoom**: [Extract combined view formats](https://github.com/yt-dlp/yt-dlp/commit/3906de07551fedb00b789345bf24cc27d6ddf128) ([#7847](https://github.com/yt-dlp/yt-dlp/issues/7847)) by [Mipsters](https://github.com/Mipsters)
+
+#### Downloader changes
+- **aria2c**: [Remove duplicate `--file-allocation=none`](https://github.com/yt-dlp/yt-dlp/commit/21b25281c51523620706b11bfc1c4a889858e1f2) ([#8332](https://github.com/yt-dlp/yt-dlp/issues/8332)) by [CrendKing](https://github.com/CrendKing)
+- **dash**: [Force native downloader for `--live-from-start`](https://github.com/yt-dlp/yt-dlp/commit/2622c804d1a5accc3045db398e0fc52074f4bdb3) ([#8339](https://github.com/yt-dlp/yt-dlp/issues/8339)) by [bashonly](https://github.com/bashonly)
+
+#### Networking changes
+- **Request Handler**: requests: [Add handler for `requests` HTTP library](https://github.com/yt-dlp/yt-dlp/commit/8a8b54523addf46dfd50ef599761a81bc22362e6) ([#3668](https://github.com/yt-dlp/yt-dlp/issues/3668)) by [bashonly](https://github.com/bashonly), [coletdjnz](https://github.com/coletdjnz), [Grub4K](https://github.com/Grub4K) (With fixes in [4e38e2a](https://github.com/yt-dlp/yt-dlp/commit/4e38e2ae9d7380015349e6aee59c78bb3938befd))
+
+#### Misc. changes
+- **build**
+    - [Include secretstorage in Linux builds](https://github.com/yt-dlp/yt-dlp/commit/9970d74c8383432c6c8779aa47d3253dcf412b14) by [bashonly](https://github.com/bashonly)
+    - [Overhaul and unify release workflow](https://github.com/yt-dlp/yt-dlp/commit/1d03633c5a1621b9f3a756f0a4f9dc61fab3aeaa) by [bashonly](https://github.com/bashonly), [Grub4K](https://github.com/Grub4K)
+- **ci**
+    - [Bump `actions/checkout` to v4](https://github.com/yt-dlp/yt-dlp/commit/5438593a35b7b042fc48fe29cad0b9039f07c9bb) by [bashonly](https://github.com/bashonly)
+    - [Run core tests with dependencies](https://github.com/yt-dlp/yt-dlp/commit/700444c23ddb65f618c2abd942acdc0c58c650b1) by [bashonly](https://github.com/bashonly), [coletdjnz](https://github.com/coletdjnz)
+- **cleanup**: [Update documentation for master and nightly channels](https://github.com/yt-dlp/yt-dlp/commit/a00af29853b8c7350ce086f4cab8c2c9cf2fcf1d) by [bashonly](https://github.com/bashonly), [Grub4K](https://github.com/Grub4K)
+- **test**: update: [Implement simple updater unit tests](https://github.com/yt-dlp/yt-dlp/commit/87264d4fdadcddd91289b968dd0e4bf58d449267) by [bashonly](https://github.com/bashonly)
+
 ### 2023.10.13
 
 #### Core changes
