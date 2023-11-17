@@ -59,6 +59,8 @@
  - **AlphaPorno**
  - **Alsace20TV**
  - **Alsace20TVEmbed**
+ - **altcensored**
+ - **altcensored:channel**
  - **Alura**: [*alura*](## "netrc machine")
  - **AluraCourse**: [*aluracourse*](## "netrc machine")
  - **Amara**
@@ -392,6 +394,7 @@
  - **duboku**: www.duboku.io
  - **duboku:list**: www.duboku.io entire series
  - **Dumpert**
+ - **Duoplay**
  - **dvtv**: http://video.aktualne.cz/
  - **dw**
  - **dw:article**
@@ -1877,6 +1880,9 @@
  - **zingmp3:chart-home**
  - **zingmp3:chart-music-video**
  - **zingmp3:hub**
+ - **zingmp3:liveradio**
+ - **zingmp3:podcast**
+ - **zingmp3:podcast-episode**
  - **zingmp3:user**
  - **zingmp3:week-chart**
  - **zoom**

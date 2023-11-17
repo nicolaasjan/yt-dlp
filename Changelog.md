@@ -4,6 +4,17 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2023.11.17.052616
+
+#### Core changes
+- [Remove Python 3.7 support](https://github.com/yt-dlp/yt-dlp/commit/f4b95acafcd69a50040730dfdf732e797278fdcc) ([#8361](https://github.com/yt-dlp/yt-dlp/issues/8361)) by [bashonly](https://github.com/bashonly)
+
+#### Extractor changes
+- **altcensored**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/3f90813f0617e0d21302398010de7496c9ae36aa) ([#8291](https://github.com/yt-dlp/yt-dlp/issues/8291)) by [drzraf](https://github.com/drzraf)
+- **drtv**: [Set default ext for m3u8 formats](https://github.com/yt-dlp/yt-dlp/commit/f96ab86cd837b1b5823baa87d144e15322ee9298) ([#8590](https://github.com/yt-dlp/yt-dlp/issues/8590)) by [seproDev](https://github.com/seproDev)
+- **duoplay**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/66a0127d45033c698bdbedf162cddc55d9e7b906) ([#8542](https://github.com/yt-dlp/yt-dlp/issues/8542)) by [glensc](https://github.com/glensc)
+- **zingmp3**: [Add support for radio and podcasts](https://github.com/yt-dlp/yt-dlp/commit/64de1a4c25bada90374b88d7353754fe8fbfcc51) ([#7189](https://github.com/yt-dlp/yt-dlp/issues/7189)) by [hatienl0i261299](https://github.com/hatienl0i261299)
+
 ### 2023.11.16
 
 #### Extractor changes
