@@ -4,6 +4,31 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2023.11.20.054054
+
+#### Core changes
+- [Remove Python 3.7 support](https://github.com/yt-dlp/yt-dlp/commit/f4b95acafcd69a50040730dfdf732e797278fdcc) ([#8361](https://github.com/yt-dlp/yt-dlp/issues/8361)) by [bashonly](https://github.com/bashonly)
+
+#### Extractor changes
+- [Extract from `media` elements in SMIL manifests](https://github.com/yt-dlp/yt-dlp/commit/ddb2d7588bea48bae965dbfabe6df6550c9d3d43) ([#8504](https://github.com/yt-dlp/yt-dlp/issues/8504)) by [seproDev](https://github.com/seproDev)
+- **allstar**: [Add extractors](https://github.com/yt-dlp/yt-dlp/commit/3237f8ba29fe13bf95ff42b1e48b5b5109715feb) ([#8274](https://github.com/yt-dlp/yt-dlp/issues/8274)) by [S-Aarab](https://github.com/S-Aarab)
+- **altcensored**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/3f90813f0617e0d21302398010de7496c9ae36aa) ([#8291](https://github.com/yt-dlp/yt-dlp/issues/8291)) by [drzraf](https://github.com/drzraf)
+- **bilibili**: [Support courses and interactive videos](https://github.com/yt-dlp/yt-dlp/commit/9f09bdcfcb8e2b4b2decdc30d35d34b993bc7a94) ([#8343](https://github.com/yt-dlp/yt-dlp/issues/8343)) by [c-basalt](https://github.com/c-basalt)
+- **drtv**: [Set default ext for m3u8 formats](https://github.com/yt-dlp/yt-dlp/commit/f96ab86cd837b1b5823baa87d144e15322ee9298) ([#8590](https://github.com/yt-dlp/yt-dlp/issues/8590)) by [seproDev](https://github.com/seproDev)
+- **duoplay**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/66a0127d45033c698bdbedf162cddc55d9e7b906) ([#8542](https://github.com/yt-dlp/yt-dlp/issues/8542)) by [glensc](https://github.com/glensc)
+- **nebula**: [Overhaul extractors](https://github.com/yt-dlp/yt-dlp/commit/45d82be65f71bb05506bd55376c6fdb36bc54142) ([#8566](https://github.com/yt-dlp/yt-dlp/issues/8566)) by [elyse0](https://github.com/elyse0), [pukkandan](https://github.com/pukkandan), [seproDev](https://github.com/seproDev)
+- **nintendo**: [Fix Nintendo Direct extraction](https://github.com/yt-dlp/yt-dlp/commit/1d24da6c899ef280d8b0a48a5e280ecd5d39cdf4) ([#8609](https://github.com/yt-dlp/yt-dlp/issues/8609)) by [Grub4K](https://github.com/Grub4K)
+- **theguardian**: [Add extractors](https://github.com/yt-dlp/yt-dlp/commit/1fa3f24d4b5d22176b11d78420f1f4b64a5af0a8) ([#8535](https://github.com/yt-dlp/yt-dlp/issues/8535)) by [SirElderling](https://github.com/SirElderling)
+- **twitcasting**: [Detect livestreams via API and `show` page](https://github.com/yt-dlp/yt-dlp/commit/585d0ed9abcfcb957f2b2684b8ad43c3af160383) ([#8601](https://github.com/yt-dlp/yt-dlp/issues/8601)) by [bashonly](https://github.com/bashonly), [JC-Chung](https://github.com/JC-Chung)
+- **twitter**: broadcast: [Extract `concurrent_view_count`](https://github.com/yt-dlp/yt-dlp/commit/6fe82491ed622b948c512cf4aab46ac3a234ae0a) ([#8600](https://github.com/yt-dlp/yt-dlp/issues/8600)) by [sonmezberkay](https://github.com/sonmezberkay)
+- **vidly**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/34df1c1f60fa652c0a6a5c712b06c10e45daf6b7) ([#8612](https://github.com/yt-dlp/yt-dlp/issues/8612)) by [seproDev](https://github.com/seproDev)
+- **vocaroo**: [Do not use deprecated `getheader`](https://github.com/yt-dlp/yt-dlp/commit/f223b1b0789f65e06619dcc9fc9e74f50d259379) ([#8606](https://github.com/yt-dlp/yt-dlp/issues/8606)) by [qbnu](https://github.com/qbnu)
+- **vvvvid**: [Set user-agent to fix extraction](https://github.com/yt-dlp/yt-dlp/commit/1725e943b0e8a8b585305660d4611e684374409c) ([#8615](https://github.com/yt-dlp/yt-dlp/issues/8615)) by [Kyraminol](https://github.com/Kyraminol)
+- **zingmp3**: [Add support for radio and podcasts](https://github.com/yt-dlp/yt-dlp/commit/64de1a4c25bada90374b88d7353754fe8fbfcc51) ([#7189](https://github.com/yt-dlp/yt-dlp/issues/7189)) by [hatienl0i261299](https://github.com/hatienl0i261299)
+
+#### Misc. changes
+- **ci**: [Concurrency optimizations](https://github.com/yt-dlp/yt-dlp/commit/f124fa458826308afc86cf364c509f857686ecfd) ([#8614](https://github.com/yt-dlp/yt-dlp/issues/8614)) by [Grub4K](https://github.com/Grub4K)
+
 ### 2023.11.16
 
 #### Extractor changes

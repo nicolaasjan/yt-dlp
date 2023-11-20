@@ -56,9 +56,13 @@
  - **AliExpressLive**
  - **AlJazeera**
  - **Allocine**
+ - **Allstar**
+ - **AllstarProfile**
  - **AlphaPorno**
  - **Alsace20TV**
  - **Alsace20TVEmbed**
+ - **altcensored**
+ - **altcensored:channel**
  - **Alura**: [*alura*](## "netrc machine")
  - **AluraCourse**: [*aluracourse*](## "netrc machine")
  - **Amara**
@@ -162,6 +166,8 @@
  - **BiliBiliBangumi**
  - **BiliBiliBangumiMedia**
  - **BiliBiliBangumiSeason**
+ - **BilibiliCheese**
+ - **BilibiliCheeseSeason**
  - **BilibiliCollectionList**
  - **BilibiliFavoritesList**
  - **BiliBiliPlayer**
@@ -392,6 +398,7 @@
  - **duboku**: www.duboku.io
  - **duboku:list**: www.duboku.io entire series
  - **Dumpert**
+ - **Duoplay**
  - **dvtv**: http://video.aktualne.cz/
  - **dw**
  - **dw:article**
@@ -914,6 +921,7 @@
  - **NDTV**
  - **Nebula**: [*watchnebula*](## "netrc machine")
  - **nebula:channel**: [*watchnebula*](## "netrc machine")
+ - **nebula:class**: [*watchnebula*](## "netrc machine")
  - **nebula:subscriptions**: [*watchnebula*](## "netrc machine")
  - **NekoHacker**
  - **NerdCubedFeed**
@@ -1486,6 +1494,8 @@
  - **TFO**
  - **theatercomplextown:ppv**: [*theatercomplextown*](## "netrc machine")
  - **theatercomplextown:vod**: [*theatercomplextown*](## "netrc machine")
+ - **TheGuardianPodcast**
+ - **TheGuardianPodcastPlaylist**
  - **TheHoleTv**
  - **TheIntercept**
  - **ThePlatform**
@@ -1664,6 +1674,7 @@
  - **VidioLive**: [*vidio*](## "netrc machine")
  - **VidioPremier**: [*vidio*](## "netrc machine")
  - **VidLii**
+ - **Vidly**
  - **viewlift**
  - **viewlift:embed**
  - **Viidea**
@@ -1877,6 +1888,9 @@
  - **zingmp3:chart-home**
  - **zingmp3:chart-music-video**
  - **zingmp3:hub**
+ - **zingmp3:liveradio**
+ - **zingmp3:podcast**
+ - **zingmp3:podcast-episode**
  - **zingmp3:user**
  - **zingmp3:week-chart**
  - **zoom**
