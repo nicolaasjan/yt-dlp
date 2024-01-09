@@ -4,6 +4,22 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2024.01.09.044906
+
+#### Core changes
+- **cookies**: [Fix `--cookies-from-browser` with macOS Firefox profiles](https://github.com/yt-dlp/yt-dlp/commit/85b33f5c163f60dbd089a6b9bc2ba1366d3ddf93) ([#8909](https://github.com/yt-dlp/yt-dlp/issues/8909)) by [RalphORama](https://github.com/RalphORama)
+- **utils**: `traverse_obj`: [Support `xml.etree.ElementTree.Element`](https://github.com/yt-dlp/yt-dlp/commit/ffbd4f2a02fee387ea5e0a267ce32df5259111ac) ([#8911](https://github.com/yt-dlp/yt-dlp/issues/8911)) by [Grub4K](https://github.com/Grub4K)
+
+#### Extractor changes
+- **ard**: mediathek: [Revert to using old id](https://github.com/yt-dlp/yt-dlp/commit/b6951271ac014761c9c317b9cecd5e8e139cfa7c) ([#8916](https://github.com/yt-dlp/yt-dlp/issues/8916)) by [Grub4K](https://github.com/Grub4K)
+- **bigo**: [Fix JSON extraction](https://github.com/yt-dlp/yt-dlp/commit/85a2d07c1f82c2082b568963d1c32ad3fc848f61) ([#8893](https://github.com/yt-dlp/yt-dlp/issues/8893)) by [DmitryScaletta](https://github.com/DmitryScaletta)
+- **nhkradirulive**: [Make metadata extraction non-fatal](https://github.com/yt-dlp/yt-dlp/commit/5af1f19787f7d652fce72dd3ab9536cdd980fe85) ([#8956](https://github.com/yt-dlp/yt-dlp/issues/8956)) by [garret1317](https://github.com/garret1317)
+- **twitch**: [Fix m3u8 extraction](https://github.com/yt-dlp/yt-dlp/commit/5b8c69ae04444a4c80a5a99917e40f75a116c3b8) ([#8960](https://github.com/yt-dlp/yt-dlp/issues/8960)) by [DmitryScaletta](https://github.com/DmitryScaletta)
+- **viously**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/95e82347b398d8bb160767cdd975edecd62cbabd) ([#8927](https://github.com/yt-dlp/yt-dlp/issues/8927)) by [nbr23](https://github.com/nbr23), [seproDev](https://github.com/seproDev)
+
+#### Misc. changes
+- **cleanup**: [Fix typo in README.md](https://github.com/yt-dlp/yt-dlp/commit/292d60b1ed3b9fe5bcb2775a894cca99b0f9473e) ([#8894](https://github.com/yt-dlp/yt-dlp/issues/8894)) by [antonkesy](https://github.com/antonkesy)
+
 ### 2023.12.30
 
 #### Core changes
