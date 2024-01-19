@@ -26,7 +26,7 @@
  - **abcotvs**: ABC Owned Television Stations
  - **abcotvs:clips**
  - **AbemaTV**: [*abematv*](## "netrc machine")
- - **AbemaTVTitle**
+ - **AbemaTVTitle**: [*abematv*](## "netrc machine")
  - **AcademicEarth:Course**
  - **acast**
  - **acast:channel**
@@ -253,6 +253,8 @@
  - **Chilloutzone**
  - **Chingari**
  - **ChingariUser**
+ - **chzzk:live**
+ - **chzzk:video**
  - **cielotv.it**
  - **Cinemax**
  - **CinetecaMilano**
@@ -391,6 +393,7 @@
  - **EinsUndEinsTVRecordings**: [*1und1tv*](## "netrc machine")
  - **Einthusan**
  - **eitb.tv**
+ - **ElementorEmbed**
  - **Elonet**
  - **ElPais**: El País
  - **ElTreceTV**: El Trece TV (Argentina)
@@ -579,6 +582,7 @@
  - **IGNVideo**
  - **iheartradio**
  - **iheartradio:podcast**
+ - **IlPost**
  - **Iltalehti**
  - **imdb**: Internet Movie Database trailers
  - **imdb:list**: Internet Movie Database lists
@@ -718,7 +722,7 @@
  - **lynda:course**: [*lynda*](## "netrc machine") lynda.com online courses
  - **maariv.co.il**
  - **MagellanTV**
- - **MagentaMusik360**
+ - **MagentaMusik**
  - **mailru**: Видео@Mail.Ru
  - **mailru:music**: Музыка@Mail.Ru
  - **mailru:​music:search**: Музыка@Mail.Ru
@@ -1471,7 +1475,6 @@
  - **TuneInPodcast**
  - **TuneInPodcastEpisode**
  - **TuneInStation**
- - **Turbo**
  - **tv.dfb.de**
  - **TV2**
  - **TV2Article**
@@ -1601,6 +1604,7 @@
  - **ViMP:Playlist**
  - **Vine**
  - **vine:user**
+ - **Viously**
  - **Viqeo**
  - **Viu**
  - **viu:ott**: [*viu*](## "netrc machine")
