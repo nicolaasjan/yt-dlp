@@ -17,6 +17,7 @@
  - **91porn**
  - **9c9media**
  - **9gag**: 9GAG
+ - **9News**
  - **9now.com.au**
  - **abc.net.au**
  - **abc.net.au:iview**
@@ -26,13 +27,14 @@
  - **abcotvs**: ABC Owned Television Stations
  - **abcotvs:clips**
  - **AbemaTV**: [*abematv*](## "netrc machine")
- - **AbemaTVTitle**
+ - **AbemaTVTitle**: [*abematv*](## "netrc machine")
  - **AcademicEarth:Course**
  - **acast**
  - **acast:channel**
  - **AcFunBangumi**
  - **AcFunVideo**
  - **ADN**: [*animationdigitalnetwork*](## "netrc machine") Animation Digital Network
+ - **ADNSeason**: [*animationdigitalnetwork*](## "netrc machine") Animation Digital Network
  - **AdobeConnect**
  - **adobetv**
  - **adobetv:channel**
@@ -61,6 +63,7 @@
  - **altcensored:channel**
  - **Alura**: [*alura*](## "netrc machine")
  - **AluraCourse**: [*aluracourse*](## "netrc machine")
+ - **AmadeusTV**
  - **Amara**
  - **AmazonMiniTV**
  - **amazonminitv:season**: Amazon MiniTV Season, "minitv:season:" prefix
@@ -98,6 +101,8 @@
  - **ArteTVCategory**
  - **ArteTVEmbed**
  - **ArteTVPlaylist**
+ - **asobichannel**: ASOBI CHANNEL
+ - **asobichannel:tag**: ASOBI CHANNEL
  - **AtresPlayer**: [*atresplayer*](## "netrc machine")
  - **AtScaleConfEvent**
  - **ATVAt**
@@ -253,6 +258,8 @@
  - **Chilloutzone**
  - **Chingari**
  - **ChingariUser**
+ - **chzzk:live**
+ - **chzzk:video**
  - **cielotv.it**
  - **Cinemax**
  - **CinetecaMilano**
@@ -391,6 +398,7 @@
  - **EinsUndEinsTVRecordings**: [*1und1tv*](## "netrc machine")
  - **Einthusan**
  - **eitb.tv**
+ - **ElementorEmbed**
  - **Elonet**
  - **ElPais**: El País
  - **ElTreceTV**: El Trece TV (Argentina)
@@ -495,6 +503,8 @@
  - **gem.cbc.ca:playlist**
  - **Genius**
  - **GeniusLyrics**
+ - **GetCourseRu**: [*getcourseru*](## "netrc machine")
+ - **GetCourseRuPlayer**
  - **Gettr**
  - **GettrStreaming**
  - **GiantBomb**
@@ -579,6 +589,7 @@
  - **IGNVideo**
  - **iheartradio**
  - **iheartradio:podcast**
+ - **IlPost**
  - **Iltalehti**
  - **imdb**: Internet Movie Database trailers
  - **imdb:list**: Internet Movie Database lists
@@ -656,6 +667,7 @@
  - **KrasView**: Красвью
  - **KTH**
  - **Ku6**
+ - **KukuluLive**
  - **KUSI**
  - **kuwo:album**: 酷我音乐 - 专辑
  - **kuwo:category**: 酷我音乐 - 分类
@@ -718,7 +730,7 @@
  - **lynda:course**: [*lynda*](## "netrc machine") lynda.com online courses
  - **maariv.co.il**
  - **MagellanTV**
- - **MagentaMusik360**
+ - **MagentaMusik**
  - **mailru**: Видео@Mail.Ru
  - **mailru:music**: Музыка@Mail.Ru
  - **mailru:​music:search**: Музыка@Mail.Ru
@@ -1176,6 +1188,7 @@
  - **ReverbNation**
  - **RheinMainTV**
  - **RinseFM**
+ - **RinseFMArtistPlaylist**
  - **RMCDecouverte**
  - **RockstarGames**
  - **Rokfin**: [*rokfin*](## "netrc machine")
@@ -1458,6 +1471,7 @@
  - **TrovoChannelVod**: All VODs of a trovo.live channel; "trovovod:" prefix
  - **TrovoVod**
  - **TrtCocukVideo**
+ - **TrtWorld**
  - **TrueID**
  - **TruNews**
  - **Truth**
@@ -1471,7 +1485,6 @@
  - **TuneInPodcast**
  - **TuneInPodcastEpisode**
  - **TuneInStation**
- - **Turbo**
  - **tv.dfb.de**
  - **TV2**
  - **TV2Article**
@@ -1601,6 +1614,7 @@
  - **ViMP:Playlist**
  - **Vine**
  - **vine:user**
+ - **Viously**
  - **Viqeo**
  - **Viu**
  - **viu:ott**: [*viu*](## "netrc machine")
