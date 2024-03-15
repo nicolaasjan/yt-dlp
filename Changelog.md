@@ -4,6 +4,17 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2024.03.15.053528
+
+#### Extractor changes
+- **crunchyroll**: [Extract `vo_adaptive_hls` formats by default](https://github.com/yt-dlp/yt-dlp/commit/be77923ffe842f667971019460f6005f3cad01eb) ([#9447](https://github.com/yt-dlp/yt-dlp/issues/9447)) by [bashonly](https://github.com/bashonly)
+- **gofile**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/0da66980d3193cad3dae0120cddddbfcabddf7a1) ([#9446](https://github.com/yt-dlp/yt-dlp/issues/9446)) by [jazz1611](https://github.com/jazz1611)
+- **sonylivseries**: [Fix season extraction](https://github.com/yt-dlp/yt-dlp/commit/f2868b26e917354203f82a370ad2396646edb813) ([#9423](https://github.com/yt-dlp/yt-dlp/issues/9423)) by [bashonly](https://github.com/bashonly)
+- **tiktok**: [Update API hostname](https://github.com/yt-dlp/yt-dlp/commit/8c05b3ebae23c5b444857549a85b84004c01a536) ([#9444](https://github.com/yt-dlp/yt-dlp/issues/9444)) by [bashonly](https://github.com/bashonly)
+
+#### Misc. changes
+- **build**: [Update changelog for tarball and sdist](https://github.com/yt-dlp/yt-dlp/commit/17b96974a334688f76b57d350e07cae8cda46877) ([#9425](https://github.com/yt-dlp/yt-dlp/issues/9425)) by [bashonly](https://github.com/bashonly)
+
 ### 2024.03.10
 
 #### Core changes
