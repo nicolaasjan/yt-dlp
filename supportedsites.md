@@ -716,6 +716,8 @@
  - **Lnk**
  - **LnkGo**
  - **loc**: Library of Congress
+ - **loom**
+ - **loom:folder**
  - **LoveHomePorn**
  - **LRTStream**
  - **LRTVOD**
@@ -1288,6 +1290,7 @@
  - **SeznamZpravyArticle**
  - **Shahid**: [*shahid*](## "netrc machine")
  - **ShahidShow**
+ - **SharePoint**
  - **ShareVideosEmbed**
  - **ShemarooMe**
  - **ShowRoomLive**
