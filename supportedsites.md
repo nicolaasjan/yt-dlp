@@ -14,7 +14,6 @@
  - **6play**
  - **7plus**
  - **8tracks**
- - **91porn**
  - **9c9media**
  - **9gag**: 9GAG
  - **9News**
@@ -220,7 +219,6 @@
  - **BusinessInsider**
  - **BuzzFeed**
  - **BYUtv**: (**Currently broken**)
- - **CableAV**
  - **Callin**
  - **Caltrans**
  - **CAM4**
@@ -396,7 +394,6 @@
  - **EinsUndEinsTV**: [*1und1tv*](## "netrc machine")
  - **EinsUndEinsTVLive**: [*1und1tv*](## "netrc machine")
  - **EinsUndEinsTVRecordings**: [*1und1tv*](## "netrc machine")
- - **Einthusan**
  - **eitb.tv**
  - **ElementorEmbed**
  - **Elonet**
@@ -527,6 +524,7 @@
  - **GMANetworkVideo**
  - **Go**
  - **GoDiscovery**
+ - **GodResource**
  - **GodTube**: (**Currently broken**)
  - **Gofile**
  - **Golem**
@@ -630,8 +628,6 @@
  - **iwara:user**: [*iwara*](## "netrc machine")
  - **Ixigua**
  - **Izlesene**
- - **Jable**
- - **JablePlaylist**
  - **Jamendo**
  - **JamendoAlbum**
  - **JeuxVideo**: (**Currently broken**)
@@ -974,6 +970,7 @@
  - **NRKTVSeason**
  - **NRKTVSeries**
  - **NRLTV**: (**Currently broken**)
+ - **nts.live**
  - **ntv.ru**
  - **NubilesPorn**: [*nubiles-porn*](## "netrc machine")
  - **nuum:live**
@@ -1501,7 +1498,7 @@
  - **tv2play.hu**
  - **tv2playseries.hu**
  - **TV4**: tv4.se and tv4play.se
- - **TV5MondePlus**: TV5MONDE+
+ - **TV5MONDE**
  - **tv5unis**
  - **tv5unis:video**
  - **tv8.it**
@@ -1715,7 +1712,6 @@
  - **wykop:​post:comment**
  - **Xanimu**
  - **XboxClips**
- - **XFileShare**: XFileShare based sites: Aparat, ClipWatching, GoUnlimited, GoVid, HolaVid, Streamty, TheVideoBee, Uqload, VidBom, vidlo, VidLocker, VidShare, VUp, WolfStream, XVideoSharing
  - **XHamster**
  - **XHamsterEmbed**
  - **XHamsterUser**
@@ -1749,8 +1745,6 @@
  - **YouNowLive**
  - **YouNowMoment**
  - **YouPorn**
- - **YourPorn**
- - **YourUpload**
  - **youtube**: YouTube
  - **youtube:clip**
  - **youtube:favorites**: YouTube liked videos; ":ytfav" keyword (requires cookies)
