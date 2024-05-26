@@ -302,10 +302,10 @@ If you fork the project on GitHub, you can run your fork's [build workflow](.git
     --no-update                     Do not check for updates (default)
     --update-to [CHANNEL]@[TAG]     Upgrade/downgrade to a specific version.
                                     CHANNEL can be a repository as well. CHANNEL
-                                    and TAG default to "stable" and "latest"
-                                    respectively if omitted; See "UPDATE" for
-                                    details. Supported channels: stable,
-                                    nightly, master
+                                    and TAG default to "nicolaasjan/yt-dlp" and
+                                    "latest" respectively if omitted; See
+                                    "UPDATE" for details. Supported channels:
+                                    stable, nightly, master
     -i, --ignore-errors             Ignore download and postprocessing errors.
                                     The download will be considered successful
                                     even if the postprocessing fails
@@ -666,16 +666,17 @@ If you fork the project on GitHub, you can run your fork's [build workflow](.git
                                     The name of the browser to load cookies
                                     from. Currently supported browsers are:
                                     brave, chrome, chromium, edge, firefox,
-                                    opera, safari, vivaldi, whale. Optionally, the
-                                    KEYRING used for decrypting Chromium cookies
-                                    on Linux, the name/path of the PROFILE to
-                                    load cookies from, and the CONTAINER name
-                                    (if Firefox) ("none" for no container) can
-                                    be given with their respective seperators.
-                                    By default, all containers of the most
-                                    recently accessed profile are used.
-                                    Currently supported keyrings are: basictext,
-                                    gnomekeyring, kwallet, kwallet5, kwallet6
+                                    opera, safari, vivaldi, whale. Optionally,
+                                    the KEYRING used for decrypting Chromium
+                                    cookies on Linux, the name/path of the
+                                    PROFILE to load cookies from, and the
+                                    CONTAINER name (if Firefox) ("none" for no
+                                    container) can be given with their
+                                    respective seperators. By default, all
+                                    containers of the most recently accessed
+                                    profile are used. Currently supported
+                                    keyrings are: basictext, gnomekeyring,
+                                    kwallet, kwallet5, kwallet6
     --no-cookies-from-browser       Do not load cookies from browser (default)
     --cache-dir DIR                 Location in the filesystem where yt-dlp can
                                     store some downloaded information (such as
