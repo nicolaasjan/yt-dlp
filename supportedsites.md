@@ -1495,7 +1495,7 @@
  - **TubeTuGraz**: [*tubetugraz*](## "netrc machine") tube.tugraz.at
  - **TubeTuGrazSeries**: [*tubetugraz*](## "netrc machine")
  - **TubiTv**: [*tubitv*](## "netrc machine")
- - **TubiTvShow**
+ - **TubiTvShow**: (**Currently broken**)
  - **Tumblr**: [*tumblr*](## "netrc machine")
  - **TuneInPodcast**
  - **TuneInPodcastEpisode**
