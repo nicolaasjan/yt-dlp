@@ -4,6 +4,21 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2024.06.02.050715
+
+#### Extractor changes
+- **orf**: on: [Support segmented episodes](https://github.com/yt-dlp/yt-dlp/commit/8b46ad4d8b8ee8c5472af0cde863baa89ca3f425) ([#10053](https://github.com/yt-dlp/yt-dlp/issues/10053)) by [seproDev](https://github.com/seproDev)
+- **patreoncampaign**: [Fix `campaign_id` extraction](https://github.com/yt-dlp/yt-dlp/commit/2e5a47da400b645aadbda6afd1156bd89c744f48) ([#10070](https://github.com/yt-dlp/yt-dlp/issues/10070)) by [bashonly](https://github.com/bashonly)
+- **tubitv**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/bef9a9e5361fd7a72e21d0f1a8c8afb70d89e8c5) ([#9975](https://github.com/yt-dlp/yt-dlp/issues/9975)) by [chilinux](https://github.com/chilinux)
+
+#### Networking changes
+- **Request Handler**: requests: [Bump minimum `requests` version to 2.32.2](https://github.com/yt-dlp/yt-dlp/commit/db50f19d76c6870a5a13d0cab9287d684fd7449a) ([#10079](https://github.com/yt-dlp/yt-dlp/issues/10079)) by [bashonly](https://github.com/bashonly)
+
+#### Misc. changes
+- **build**
+    - [Bump Pyinstaller to `>=6.7.0` for all builds](https://github.com/yt-dlp/yt-dlp/commit/5fdd13006a1c5d78642c8d3c4c7df0448273c2ae) ([#10069](https://github.com/yt-dlp/yt-dlp/issues/10069)) by [bashonly](https://github.com/bashonly), [seproDev](https://github.com/seproDev)
+    - [Use `macos-12` image for `yt-dlp_macos`](https://github.com/yt-dlp/yt-dlp/commit/03334d639d5282cd4107edb32c623ba400262fc4) ([#10063](https://github.com/yt-dlp/yt-dlp/issues/10063)) by [bashonly](https://github.com/bashonly)
+
 ### 2024.05.27
 
 #### Extractor changes
