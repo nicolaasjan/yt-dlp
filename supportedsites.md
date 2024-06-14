@@ -1237,6 +1237,7 @@
  - **rtve.es:television**
  - **RTVS**
  - **rtvslo.si**
+ - **rtvslo.si:show**
  - **RudoVideo**
  - **Rule34Video**
  - **Rumble**
@@ -1494,8 +1495,8 @@
  - **Tube8**: (**Currently broken**)
  - **TubeTuGraz**: [*tubetugraz*](## "netrc machine") tube.tugraz.at
  - **TubeTuGrazSeries**: [*tubetugraz*](## "netrc machine")
- - **TubiTv**: [*tubitv*](## "netrc machine")
- - **TubiTvShow**
+ - **tubitv**: [*tubitv*](## "netrc machine")
+ - **tubitv:series**
  - **Tumblr**: [*tumblr*](## "netrc machine")
  - **TuneInPodcast**
  - **TuneInPodcastEpisode**

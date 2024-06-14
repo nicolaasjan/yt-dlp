@@ -4,6 +4,33 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2024.06.14.141501
+
+#### Extractor changes
+- **francetv**
+    - [Detect and raise errors for DRM](https://github.com/yt-dlp/yt-dlp/commit/3690c2f59827c79a1bbe388a7c1ae75db7477db2) ([#10165](https://github.com/yt-dlp/yt-dlp/issues/10165)) by [bashonly](https://github.com/bashonly)
+    - [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/081708d6074dfbb907e25af61ba530bba0d4b31d) ([#10177](https://github.com/yt-dlp/yt-dlp/issues/10177)) by [bashonly](https://github.com/bashonly)
+- **nhkradiru**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/b8e2a5e0e1030076f833917906e19bb6c7b318f6) ([#10106](https://github.com/yt-dlp/yt-dlp/issues/10106)) by [garret1317](https://github.com/garret1317)
+- **orf**: on: [Support segmented episodes](https://github.com/yt-dlp/yt-dlp/commit/8b46ad4d8b8ee8c5472af0cde863baa89ca3f425) ([#10053](https://github.com/yt-dlp/yt-dlp/issues/10053)) by [seproDev](https://github.com/seproDev)
+- **patreoncampaign**: [Fix `campaign_id` extraction](https://github.com/yt-dlp/yt-dlp/commit/2e5a47da400b645aadbda6afd1156bd89c744f48) ([#10070](https://github.com/yt-dlp/yt-dlp/issues/10070)) by [bashonly](https://github.com/bashonly)
+- **rtvslo.si**: show: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/92a1c4abaeeba9a69d611c57b73555cb1a1f00ad) ([#8418](https://github.com/yt-dlp/yt-dlp/issues/8418)) by [JSubelj](https://github.com/JSubelj), [seproDev](https://github.com/seproDev)
+- **soundcloud**: [Fix `download` format extraction](https://github.com/yt-dlp/yt-dlp/commit/e53e56b73543799638fa6abb0c78f8b091aa84e1) ([#10125](https://github.com/yt-dlp/yt-dlp/issues/10125)) by [bashonly](https://github.com/bashonly)
+- **tiktok**: [Detect and raise when login is required](https://github.com/yt-dlp/yt-dlp/commit/ea88129784fcbb6987161df9ba05909325d8e2e9) ([#10124](https://github.com/yt-dlp/yt-dlp/issues/10124)) by [bashonly](https://github.com/bashonly)
+- **tubitv**
+    - [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/bef9a9e5361fd7a72e21d0f1a8c8afb70d89e8c5) ([#9975](https://github.com/yt-dlp/yt-dlp/issues/9975)) by [chilinux](https://github.com/chilinux)
+    - series: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/d7d861811c15585a4f7ec9d5ae68d2ac28de28a0) ([#10116](https://github.com/yt-dlp/yt-dlp/issues/10116)) by [bashonly](https://github.com/bashonly)
+- **youtube**: tab: [Fix channel metadata extraction](https://github.com/yt-dlp/yt-dlp/commit/a0d9967f6822fc279e86bce33464194985148727) ([#10071](https://github.com/yt-dlp/yt-dlp/issues/10071)) by [bashonly](https://github.com/bashonly), [shoxie007](https://github.com/shoxie007)
+
+#### Networking changes
+- **Request Handler**: requests: [Bump minimum `requests` version to 2.32.2](https://github.com/yt-dlp/yt-dlp/commit/db50f19d76c6870a5a13d0cab9287d684fd7449a) ([#10079](https://github.com/yt-dlp/yt-dlp/issues/10079)) by [bashonly](https://github.com/bashonly)
+
+#### Misc. changes
+- **build**
+    - [Bump Pyinstaller to `>=6.7.0` for all builds](https://github.com/yt-dlp/yt-dlp/commit/5fdd13006a1c5d78642c8d3c4c7df0448273c2ae) ([#10069](https://github.com/yt-dlp/yt-dlp/issues/10069)) by [bashonly](https://github.com/bashonly), [seproDev](https://github.com/seproDev)
+    - [Cache dependencies for `macos` job](https://github.com/yt-dlp/yt-dlp/commit/46c1b7cfec1d0e6155083ca7e6948674c64ecb97) ([#10088](https://github.com/yt-dlp/yt-dlp/issues/10088)) by [bashonly](https://github.com/bashonly)
+    - [Use `macos-12` image for `yt-dlp_macos`](https://github.com/yt-dlp/yt-dlp/commit/03334d639d5282cd4107edb32c623ba400262fc4) ([#10063](https://github.com/yt-dlp/yt-dlp/issues/10063)) by [bashonly](https://github.com/bashonly)
+- **cleanup**: [Add more ruff rules](https://github.com/yt-dlp/yt-dlp/commit/add96eb9f84cfffe85682bf2fb85135746994ee8) ([#10149](https://github.com/yt-dlp/yt-dlp/issues/10149)) by [seproDev](https://github.com/seproDev)
+
 ### 2024.05.27
 
 #### Extractor changes
