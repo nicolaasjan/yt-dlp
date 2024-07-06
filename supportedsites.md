@@ -1618,6 +1618,7 @@
  - **VidLii**
  - **Vidly**
  - **vids.io**
+ - **Vidyard**
  - **viewlift**
  - **viewlift:embed**
  - **Viidea**
