@@ -1140,7 +1140,6 @@
  - **QuantumTV**: [*quantumtv*](## "netrc machine")
  - **QuantumTVLive**: [*quantumtv*](## "netrc machine")
  - **QuantumTVRecordings**: [*quantumtv*](## "netrc machine")
- - **Qub**
  - **R7**: (**Currently broken**)
  - **R7Article**: (**Currently broken**)
  - **Radiko**
@@ -1517,9 +1516,9 @@
  - **tv5unis**
  - **tv5unis:video**
  - **tv8.it**
- - **TVA**
  - **TVANouvelles**
  - **TVANouvellesArticle**
+ - **tvaplus**: TVA+
  - **TVC**
  - **TVCArticle**
  - **TVer**
