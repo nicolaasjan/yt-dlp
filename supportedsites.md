@@ -660,6 +660,7 @@
  - **kick:vod**
  - **Kicker**
  - **KickStarter**
+ - **Kika**: KiKA.de
  - **kinja:embed**
  - **KinoPoisk**
  - **Kommunetv**
@@ -756,7 +757,7 @@
  - **Masters**
  - **MatchTV**
  - **MBN**: mbn.co.kr (매일방송)
- - **MDR**: MDR.DE and KiKA
+ - **MDR**: MDR.DE
  - **MedalTV**
  - **media.ccc.de**
  - **media.ccc.de:lists**
@@ -1608,6 +1609,7 @@
  - **videomore:season**
  - **videomore:video**
  - **VideoPress**
+ - **Vidflex**
  - **Vidio**: [*vidio*](## "netrc machine")
  - **VidioLive**: [*vidio*](## "netrc machine")
  - **VidioPremier**: [*vidio*](## "netrc machine")

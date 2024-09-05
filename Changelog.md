@@ -4,6 +4,30 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2024.09.05.180110
+
+#### Extractor changes
+- **adn**: [Fix extractors](https://github.com/yt-dlp/yt-dlp/commit/cc88a54bb1ef285154775f8a6a413335ce4c71ce) ([#10749](https://github.com/yt-dlp/yt-dlp/issues/10749)) by [infanf](https://github.com/infanf)
+- **asobistage**: [Support redirected URLs](https://github.com/yt-dlp/yt-dlp/commit/a7d3235c84dac57a127cbe0ff38f7f7c2fdd8fa0) ([#10768](https://github.com/yt-dlp/yt-dlp/issues/10768)) by [pzhlkj6612](https://github.com/pzhlkj6612)
+- **bilibili**: [Fix festival URL support](https://github.com/yt-dlp/yt-dlp/commit/b43bd864851f2862e26caa85461c5d825d49d463) ([#10740](https://github.com/yt-dlp/yt-dlp/issues/10740)) by [bashonly](https://github.com/bashonly), [grqz](https://github.com/grqz)
+- **eurosport**: [Support local URL variants](https://github.com/yt-dlp/yt-dlp/commit/f0bb28504c8c2b75ee3e5796aed50de2a7f90a1b) ([#10785](https://github.com/yt-dlp/yt-dlp/issues/10785)) by [seproDev](https://github.com/seproDev)
+- **facebook**: ads: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/d62fef7e07d454c0d2ba2d69fb96d691dba1ded0) ([#10704](https://github.com/yt-dlp/yt-dlp/issues/10704)) by [kclauhk](https://github.com/kclauhk)
+- **kika**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/e6f48ca80821939c1fd11ec2a0cdbf2fba9b258a) ([#5788](https://github.com/yt-dlp/yt-dlp/issues/5788)) by [1100101](https://github.com/1100101)
+- **patreoncampaign**: [Support API URLs](https://github.com/yt-dlp/yt-dlp/commit/232e6db30c474d1b387e405342f34173ceeaf832) ([#10734](https://github.com/yt-dlp/yt-dlp/issues/10734)) by [bashonly](https://github.com/bashonly), [hibes](https://github.com/hibes)
+- **radiko**: [Extract unique `id` values](https://github.com/yt-dlp/yt-dlp/commit/c8d096c5ce111411fbdbe2abb8fed54f317a6182) ([#10726](https://github.com/yt-dlp/yt-dlp/issues/10726)) by [garret1317](https://github.com/garret1317)
+- **rutube**: [Support livestreams](https://github.com/yt-dlp/yt-dlp/commit/41be32e78c3845000dbac188ffb90ea3ea7c4dfa) ([#10844](https://github.com/yt-dlp/yt-dlp/issues/10844)) by [pzhlkj6612](https://github.com/pzhlkj6612)
+- **twitter**: spaces: [Support video spaces](https://github.com/yt-dlp/yt-dlp/commit/bef1d4d6fc9493fda7f75e2289c07c507d10092f) ([#10789](https://github.com/yt-dlp/yt-dlp/issues/10789)) by [bashonly](https://github.com/bashonly)
+- **vidflex**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/e978c312d6550a6ae4c9df18001afb1b420cb72f) ([#10002](https://github.com/yt-dlp/yt-dlp/issues/10002)) by [pzhlkj6612](https://github.com/pzhlkj6612)
+- **vimeo**: [Always try to extract original format](https://github.com/yt-dlp/yt-dlp/commit/4115c24d157c5b5f63089d75c4e0f51d1f8b4489) ([#10721](https://github.com/yt-dlp/yt-dlp/issues/10721)) by [bashonly](https://github.com/bashonly) (With fixes in [e8e6a98](https://github.com/yt-dlp/yt-dlp/commit/e8e6a982a1b659eed434d225d7922f632bac6568) by [seproDev](https://github.com/seproDev))
+- **youtube**: [Support excluding `player_client`s in extractor-arg](https://github.com/yt-dlp/yt-dlp/commit/49f3741a820ed142f6866317c2e7d247b130960e) ([#10710](https://github.com/yt-dlp/yt-dlp/issues/10710)) by [bashonly](https://github.com/bashonly)
+
+#### Networking changes
+- **Request Handler**: websockets: [Upgrade websockets to 13.0](https://github.com/yt-dlp/yt-dlp/commit/6f9e6537434562d513d0c9b68ced8a61ade94a64) ([#10815](https://github.com/yt-dlp/yt-dlp/issues/10815)) by [coletdjnz](https://github.com/coletdjnz)
+
+#### Misc. changes
+- **build**: [Pin `delocate` version for `macos`](https://github.com/yt-dlp/yt-dlp/commit/7e41628ff523b3fe373b0981a5db441358980dab) ([#10901](https://github.com/yt-dlp/yt-dlp/issues/10901)) by [bashonly](https://github.com/bashonly)
+- **ci**: [Add issue tracker anti-spam protection](https://github.com/yt-dlp/yt-dlp/commit/ad9a8115aa29a1a95c961b16fcf129a228d98f50) ([#10861](https://github.com/yt-dlp/yt-dlp/issues/10861)) by [bashonly](https://github.com/bashonly)
+
 ### 2024.08.06
 
 #### Core changes
