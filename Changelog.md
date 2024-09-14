@@ -4,6 +4,61 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2024.09.14.180256
+
+#### Core changes
+- **utils**: `mimetype2ext`: [Recognize `aacp` as `aac`](https://github.com/yt-dlp/yt-dlp/commit/cc85596d5b59f0c14e9381b3675f619c1e12e597) ([#10860](https://github.com/yt-dlp/yt-dlp/issues/10860)) by [bashonly](https://github.com/bashonly)
+
+#### Extractor changes
+- [Fix JW Player format parsing](https://github.com/yt-dlp/yt-dlp/commit/409f8e9e3b4bde81ef76fc563256f876d2ff8099) ([#10956](https://github.com/yt-dlp/yt-dlp/issues/10956)) by [seproDev](https://github.com/seproDev)
+- [Handle decode errors when reading responses](https://github.com/yt-dlp/yt-dlp/commit/325001317d97f4545d66fac44c4ba772c6f45f22) ([#10868](https://github.com/yt-dlp/yt-dlp/issues/10868)) by [bashonly](https://github.com/bashonly)
+- **adn**: [Fix extractors](https://github.com/yt-dlp/yt-dlp/commit/cc88a54bb1ef285154775f8a6a413335ce4c71ce) ([#10749](https://github.com/yt-dlp/yt-dlp/issues/10749)) by [infanf](https://github.com/infanf)
+- **asobistage**: [Support redirected URLs](https://github.com/yt-dlp/yt-dlp/commit/a7d3235c84dac57a127cbe0ff38f7f7c2fdd8fa0) ([#10768](https://github.com/yt-dlp/yt-dlp/issues/10768)) by [pzhlkj6612](https://github.com/pzhlkj6612)
+- **bandcamp**: user: [Fix extraction](https://github.com/yt-dlp/yt-dlp/commit/5d0176547f16a3642cd71627126e9dfc24981e20) ([#10328](https://github.com/yt-dlp/yt-dlp/issues/10328)) by [bashonly](https://github.com/bashonly), [quad](https://github.com/quad)
+- **beacon**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/b4760c778d0c92c6e3f2bc8346cd72c8f08595ae) ([#9901](https://github.com/yt-dlp/yt-dlp/issues/9901)) by [Deukhoofd](https://github.com/Deukhoofd)
+- **bilibili**: [Fix festival URL support](https://github.com/yt-dlp/yt-dlp/commit/b43bd864851f2862e26caa85461c5d825d49d463) ([#10740](https://github.com/yt-dlp/yt-dlp/issues/10740)) by [bashonly](https://github.com/bashonly), [grqz](https://github.com/grqz)
+- **eurosport**: [Support local URL variants](https://github.com/yt-dlp/yt-dlp/commit/f0bb28504c8c2b75ee3e5796aed50de2a7f90a1b) ([#10785](https://github.com/yt-dlp/yt-dlp/issues/10785)) by [seproDev](https://github.com/seproDev)
+- **facebook**
+    - ads: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/d62fef7e07d454c0d2ba2d69fb96d691dba1ded0) ([#10704](https://github.com/yt-dlp/yt-dlp/issues/10704)) by [kclauhk](https://github.com/kclauhk)
+    - reel: [Improve metadata extraction](https://github.com/yt-dlp/yt-dlp/commit/0e1b941c6b2caa688b0d3332e723d16dbafa4311) by [lengzuo](https://github.com/lengzuo)
+- **hgtvde**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/a555389c9bb32e589e00b4664974423fb7b04dcd) ([#10992](https://github.com/yt-dlp/yt-dlp/issues/10992)) by [bashonly](https://github.com/bashonly), [rdamas](https://github.com/rdamas)
+- **huya**: video: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/25c1cdaa2650563494d3bf00a38f72d0d9486bff) ([#10686](https://github.com/yt-dlp/yt-dlp/issues/10686)) by [hugepower](https://github.com/hugepower)
+- **iprima**: [Fix zoom URL support](https://github.com/yt-dlp/yt-dlp/commit/4a27b8f092f7f7c10b7a334d3535c97c2af02f0a) ([#10959](https://github.com/yt-dlp/yt-dlp/issues/10959)) by [otovalek](https://github.com/otovalek)
+- **khanacademy**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/0fba08485b6445b72b5b63ae23ca2a73fa5d967f) ([#10913](https://github.com/yt-dlp/yt-dlp/issues/10913)) by [seproDev](https://github.com/seproDev)
+- **kick**: vod: [Support new URL format](https://github.com/yt-dlp/yt-dlp/commit/173d54c151b987409e3eb09552d8d89ed8fc50f7) ([#10988](https://github.com/yt-dlp/yt-dlp/issues/10988)) by [bashonly](https://github.com/bashonly), [grqz](https://github.com/grqz)
+- **kika**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/e6f48ca80821939c1fd11ec2a0cdbf2fba9b258a) ([#5788](https://github.com/yt-dlp/yt-dlp/issues/5788)) by [1100101](https://github.com/1100101)
+- **lnkgo**: [Remove extractor](https://github.com/yt-dlp/yt-dlp/commit/fa83d0b36bc43d30fe9241c1e923f4614864b758) ([#10904](https://github.com/yt-dlp/yt-dlp/issues/10904)) by [naglis](https://github.com/naglis)
+- **patreoncampaign**: [Support API URLs](https://github.com/yt-dlp/yt-dlp/commit/232e6db30c474d1b387e405342f34173ceeaf832) ([#10734](https://github.com/yt-dlp/yt-dlp/issues/10734)) by [bashonly](https://github.com/bashonly), [hibes](https://github.com/hibes)
+- **pinterest**: [Extend `_VALID_URL`](https://github.com/yt-dlp/yt-dlp/commit/c8c078fe28b0ffc15ef9646346c00c592fe71a78) ([#10867](https://github.com/yt-dlp/yt-dlp/issues/10867)) by [bashonly](https://github.com/bashonly), [sahilsinghss73](https://github.com/sahilsinghss73)
+- **radiko**: [Extract unique `id` values](https://github.com/yt-dlp/yt-dlp/commit/c8d096c5ce111411fbdbe2abb8fed54f317a6182) ([#10726](https://github.com/yt-dlp/yt-dlp/issues/10726)) by [garret1317](https://github.com/garret1317)
+- **rtp**: [Support more subpages](https://github.com/yt-dlp/yt-dlp/commit/d02df303d8e49390599db9f34482697e4d1cf5b2) ([#10787](https://github.com/yt-dlp/yt-dlp/issues/10787)) by [Demon000](https://github.com/Demon000)
+- **rutube**: [Support livestreams](https://github.com/yt-dlp/yt-dlp/commit/41be32e78c3845000dbac188ffb90ea3ea7c4dfa) ([#10844](https://github.com/yt-dlp/yt-dlp/issues/10844)) by [pzhlkj6612](https://github.com/pzhlkj6612)
+- **samplefocus**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/46f4c80bc363ee8116c33d37f65202e6c3470954) ([#10947](https://github.com/yt-dlp/yt-dlp/issues/10947)) by [seproDev](https://github.com/seproDev)
+- **screenrec**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/36f9e602ad55679764bc75a4f67f7562b1d6adcf) ([#10917](https://github.com/yt-dlp/yt-dlp/issues/10917)) by [naglis](https://github.com/naglis)
+- **sen**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/41a241ca6ffb95b3d9aaf4f42106ca8cba9af1a6) ([#10952](https://github.com/yt-dlp/yt-dlp/issues/10952)) by [seproDev](https://github.com/seproDev)
+- **servus**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/300c91274f7ea5b1b0528fc5ee11cf1a61d4079e) ([#10944](https://github.com/yt-dlp/yt-dlp/issues/10944)) by [seproDev](https://github.com/seproDev)
+- **tenplay**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/d8d473002b654ab0e7b97ead869f58b4361eeae1) ([#10928](https://github.com/yt-dlp/yt-dlp/issues/10928)) by [aarubui](https://github.com/aarubui)
+- **twitter**: spaces: [Support video spaces](https://github.com/yt-dlp/yt-dlp/commit/bef1d4d6fc9493fda7f75e2289c07c507d10092f) ([#10789](https://github.com/yt-dlp/yt-dlp/issues/10789)) by [bashonly](https://github.com/bashonly)
+- **vidflex**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/e978c312d6550a6ae4c9df18001afb1b420cb72f) ([#10002](https://github.com/yt-dlp/yt-dlp/issues/10002)) by [pzhlkj6612](https://github.com/pzhlkj6612)
+- **vimeo**: [Always try to extract original format](https://github.com/yt-dlp/yt-dlp/commit/4115c24d157c5b5f63089d75c4e0f51d1f8b4489) ([#10721](https://github.com/yt-dlp/yt-dlp/issues/10721)) by [bashonly](https://github.com/bashonly) (With fixes in [e8e6a98](https://github.com/yt-dlp/yt-dlp/commit/e8e6a982a1b659eed434d225d7922f632bac6568) by [seproDev](https://github.com/seproDev))
+- **watchespn**: [Improve auth support](https://github.com/yt-dlp/yt-dlp/commit/7adff8caf152dcf96d03aff69ed8545c0a63567c) ([#10910](https://github.com/yt-dlp/yt-dlp/issues/10910)) by [ischmidt20](https://github.com/ischmidt20)
+- **ximalaya**: [Add VIP support](https://github.com/yt-dlp/yt-dlp/commit/3dfd720d098b4d49d69cfc77e6376f22bcd90934) ([#10832](https://github.com/yt-dlp/yt-dlp/issues/10832)) by [seproDev](https://github.com/seproDev), [xingchensong](https://github.com/xingchensong)
+- **xinpianchang**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/3aa0156e05662923d130ddbc1c82596e38c01a00) ([#10950](https://github.com/yt-dlp/yt-dlp/issues/10950)) by [seproDev](https://github.com/seproDev)
+- **youtube**
+    - [Add `po_token`, `visitor_data`, `data_sync_id` extractor args](https://github.com/yt-dlp/yt-dlp/commit/3a3bd00037e9908e87da4fa9f2ad772aa34dc60e) ([#10648](https://github.com/yt-dlp/yt-dlp/issues/10648)) by [bashonly](https://github.com/bashonly), [coletdjnz](https://github.com/coletdjnz), [seproDev](https://github.com/seproDev)
+    - [Support excluding `player_client`s in extractor-arg](https://github.com/yt-dlp/yt-dlp/commit/49f3741a820ed142f6866317c2e7d247b130960e) ([#10710](https://github.com/yt-dlp/yt-dlp/issues/10710)) by [bashonly](https://github.com/bashonly)
+    - tab: [Fix shorts tab extraction](https://github.com/yt-dlp/yt-dlp/commit/9431777b4c37129a6093080c77ca59960afbb9d7) ([#10938](https://github.com/yt-dlp/yt-dlp/issues/10938)) by [seproDev](https://github.com/seproDev)
+
+#### Networking changes
+- [Fix handler not being added to RequestError](https://github.com/yt-dlp/yt-dlp/commit/d1c4d88b2d912e8da5e76db455562ca63b1af690) ([#10955](https://github.com/yt-dlp/yt-dlp/issues/10955)) by [coletdjnz](https://github.com/coletdjnz)
+- **Request Handler**: websockets: [Upgrade websockets to 13.0](https://github.com/yt-dlp/yt-dlp/commit/6f9e6537434562d513d0c9b68ced8a61ade94a64) ([#10815](https://github.com/yt-dlp/yt-dlp/issues/10815)) by [coletdjnz](https://github.com/coletdjnz)
+
+#### Misc. changes
+- **build**: [Pin `delocate` version for `macos`](https://github.com/yt-dlp/yt-dlp/commit/7e41628ff523b3fe373b0981a5db441358980dab) ([#10901](https://github.com/yt-dlp/yt-dlp/issues/10901)) by [bashonly](https://github.com/bashonly)
+- **ci**
+    - [Add comment sanitization workflow](https://github.com/yt-dlp/yt-dlp/commit/b6200bdcf3a9415ae36859188f9a57e3e461c696) ([#10915](https://github.com/yt-dlp/yt-dlp/issues/10915)) by [bashonly](https://github.com/bashonly), [Grub4K](https://github.com/Grub4K)
+    - [Add issue tracker anti-spam protection](https://github.com/yt-dlp/yt-dlp/commit/ad9a8115aa29a1a95c961b16fcf129a228d98f50) ([#10861](https://github.com/yt-dlp/yt-dlp/issues/10861)) by [bashonly](https://github.com/bashonly)
+
 ### 2024.08.06
 
 #### Core changes
