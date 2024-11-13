@@ -484,6 +484,7 @@
  - **Gab**
  - **GabTV**
  - **Gaia**: [*gaia*](## "netrc machine")
+ - **GameDevTVDashboard**: [*gamedevtv*](## "netrc machine")
  - **GameJolt**
  - **GameJoltCommunity**
  - **GameJoltGame**
@@ -798,6 +799,7 @@
  - **MiTele**: mitele.es
  - **mixch**
  - **mixch:archive**
+ - **mixch:movie**
  - **mixcloud**
  - **mixcloud:playlist**
  - **mixcloud:user**
@@ -1367,9 +1369,7 @@
  - **spotify**: Spotify episodes (**Currently broken**)
  - **spotify:show**: Spotify shows (**Currently broken**)
  - **Spreaker**
- - **SpreakerPage**
  - **SpreakerShow**
- - **SpreakerShowPage**
  - **SpringboardPlatform**
  - **Sprout**
  - **SproutVideo**
