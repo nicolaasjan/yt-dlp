@@ -129,6 +129,8 @@
  - **Bandcamp:album**
  - **Bandcamp:user**
  - **Bandcamp:weekly**
+ - **Bandlab**
+ - **BandlabPlaylist**
  - **BannedVideo**
  - **bbc**: [*bbc*](## "netrc machine") BBC
  - **bbc.co.uk**: [*bbc*](## "netrc machine") BBC iPlayer
@@ -484,6 +486,7 @@
  - **Gab**
  - **GabTV**
  - **Gaia**: [*gaia*](## "netrc machine")
+ - **GameDevTVDashboard**: [*gamedevtv*](## "netrc machine")
  - **GameJolt**
  - **GameJoltCommunity**
  - **GameJoltGame**
@@ -798,6 +801,7 @@
  - **MiTele**: mitele.es
  - **mixch**
  - **mixch:archive**
+ - **mixch:movie**
  - **mixcloud**
  - **mixcloud:playlist**
  - **mixcloud:user**
@@ -1160,6 +1164,7 @@
  - **RadioJavan**: (**Currently broken**)
  - **radiokapital**
  - **radiokapital:show**
+ - **RadioRadicale**
  - **RadioZetPodcast**
  - **radlive**
  - **radlive:channel**
@@ -1367,9 +1372,7 @@
  - **spotify**: Spotify episodes (**Currently broken**)
  - **spotify:show**: Spotify shows (**Currently broken**)
  - **Spreaker**
- - **SpreakerPage**
  - **SpreakerShow**
- - **SpreakerShowPage**
  - **SpringboardPlatform**
  - **Sprout**
  - **SproutVideo**
