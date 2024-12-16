@@ -4,6 +4,19 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2024.12.16.072540
+
+#### Core changes
+- **update**
+    - [Check 64-bitness when upgrading ARM builds](https://github.com/yt-dlp/yt-dlp/commit/b91c3925c2059970daa801cb131c0c2f4f302e72) ([#11819](https://github.com/yt-dlp/yt-dlp/issues/11819)) by [bashonly](https://github.com/bashonly)
+    - [Fix endless update loop for `linux_exe` builds](https://github.com/yt-dlp/yt-dlp/commit/3d3ee458c1fe49dd5ebd7651a092119d23eb7000) ([#11827](https://github.com/yt-dlp/yt-dlp/issues/11827)) by [bashonly](https://github.com/bashonly)
+
+#### Extractor changes
+- **soundcloud**: [Various fixes](https://github.com/yt-dlp/yt-dlp/commit/d298693b1b266d198e8eeecb90ea17c4a031268f) ([#11820](https://github.com/yt-dlp/yt-dlp/issues/11820)) by [bashonly](https://github.com/bashonly)
+- **youtube**
+    - [Add age-gate workaround for some embeddable videos](https://github.com/yt-dlp/yt-dlp/commit/09a6c687126f04e243fcb105a828787efddd1030) ([#11821](https://github.com/yt-dlp/yt-dlp/issues/11821)) by [bashonly](https://github.com/bashonly)
+    - [Fix `uploader_id` extraction](https://github.com/yt-dlp/yt-dlp/commit/1a8851b689763e5173b96f70f8a71df0e4a44b66) ([#11818](https://github.com/yt-dlp/yt-dlp/issues/11818)) by [bashonly](https://github.com/bashonly)
+
 ### 2024.12.13
 
 #### Extractor changes
