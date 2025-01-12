@@ -1086,6 +1086,7 @@
  - **pluralsight**: [*pluralsight*](## "netrc machine")
  - **pluralsight:course**
  - **PlutoTV**: (**Currently broken**)
+ - **PlVideo**: Платформа
  - **PodbayFM**
  - **PodbayFMChannel**
  - **Podchaser**
