@@ -224,6 +224,7 @@ The only reliable way to check if a site is supported is to try it.
  - **bt:vestlendingen**: Bergens Tidende - Vestlendingen
  - **Bundesliga**
  - **Bundestag**
+ - **BunnyCdn**
  - **BusinessInsider**
  - **BuzzFeed**
  - **BYUtv**: (**Currently broken**)
@@ -609,10 +610,10 @@ The only reliable way to check if a site is supported is to try it.
  - **Inc**
  - **IndavideoEmbed**
  - **InfoQ**
- - **Instagram**: [*instagram*](## "netrc machine")
- - **instagram:story**: [*instagram*](## "netrc machine")
- - **instagram:tag**: [*instagram*](## "netrc machine") Instagram hashtag search URLs
- - **instagram:user**: [*instagram*](## "netrc machine") Instagram user profile (**Currently broken**)
+ - **Instagram**
+ - **instagram:story**
+ - **instagram:tag**: Instagram hashtag search URLs
+ - **instagram:user**: Instagram user profile (**Currently broken**)
  - **InstagramIOS**: IOS instagram:// URL
  - **Internazionale**
  - **InternetVideoArchive**
@@ -1342,6 +1343,7 @@ The only reliable way to check if a site is supported is to try it.
  - **Smotrim**
  - **SnapchatSpotlight**
  - **Snotr**
+ - **SoftWhiteUnderbelly**: [*softwhiteunderbelly*](## "netrc machine")
  - **Sohu**
  - **SohuV**
  - **SonyLIV**: [*sonyliv*](## "netrc machine")
