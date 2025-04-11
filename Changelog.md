@@ -4,6 +4,27 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2025.04.11.143943
+
+#### Core changes
+- **utils**
+    - `_yield_json_ld`: [Make function less fatal](https://github.com/yt-dlp/yt-dlp/commit/45f01de00e1bc076b7f676a669736326178647b1) ([#12855](https://github.com/yt-dlp/yt-dlp/issues/12855)) by [seproDev](https://github.com/seproDev)
+    - `url_or_none`: [Support WebSocket URLs](https://github.com/yt-dlp/yt-dlp/commit/a473e592337edb8ca40cde52c1fcaee261c54df9) ([#12848](https://github.com/yt-dlp/yt-dlp/issues/12848)) by [doe1080](https://github.com/doe1080)
+
+#### Extractor changes
+- **crowdbunker**: [Make format extraction non-fatal](https://github.com/yt-dlp/yt-dlp/commit/4ebf41309d04a6e196944f1c0f5f0154cff0055a) ([#12836](https://github.com/yt-dlp/yt-dlp/issues/12836)) by [seproDev](https://github.com/seproDev)
+- **dzen.ru**: [Rework extractors](https://github.com/yt-dlp/yt-dlp/commit/a3f2b54c2535d862de6efa9cfaa6ca9a2b2f7dd6) ([#12852](https://github.com/yt-dlp/yt-dlp/issues/12852)) by [seproDev](https://github.com/seproDev)
+- **ivoox**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/7faa18b83dcfc74a1a1e2034e6b0369c495ca645) ([#12768](https://github.com/yt-dlp/yt-dlp/issues/12768)) by [NeonMan](https://github.com/NeonMan), [seproDev](https://github.com/seproDev)
+- **kika**: [Add playlist extractor](https://github.com/yt-dlp/yt-dlp/commit/3c1c75ecb8ab352f422b59af46fff2be992e4115) ([#12832](https://github.com/yt-dlp/yt-dlp/issues/12832)) by [1100101](https://github.com/1100101)
+- **lrtradio**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/74e90dd9b8f9c1a5c48a2515126654f4d398d687) ([#12801](https://github.com/yt-dlp/yt-dlp/issues/12801)) by [subrat-lima](https://github.com/subrat-lima)
+- **mixcloud**: [Refactor extractor](https://github.com/yt-dlp/yt-dlp/commit/db6d1f145ad583e0220637726029f8f2fa6200a0) ([#12830](https://github.com/yt-dlp/yt-dlp/issues/12830)) by [seproDev](https://github.com/seproDev), [WouterGordts](https://github.com/WouterGordts)
+- **niconico**: live: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/1d45e30537bf83e069184a440703e4c43b2e0198) ([#12809](https://github.com/yt-dlp/yt-dlp/issues/12809)) by [Snack-X](https://github.com/Snack-X)
+- **parti**: [Add extractors](https://github.com/yt-dlp/yt-dlp/commit/425017531fbc3369becb5a44013e26f26efabf45) ([#12769](https://github.com/yt-dlp/yt-dlp/issues/12769)) by [benfaerber](https://github.com/benfaerber)
+- **royalive**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/e1847535e28788414a25546a45bebcada2f34558) ([#12817](https://github.com/yt-dlp/yt-dlp/issues/12817)) by [CasperMcFadden95](https://github.com/CasperMcFadden95)
+- **rumble**: [Improve format extraction](https://github.com/yt-dlp/yt-dlp/commit/58d0c83457b93b3c9a81eb6bc5a4c65f25e949df) ([#12838](https://github.com/yt-dlp/yt-dlp/issues/12838)) by [seproDev](https://github.com/seproDev)
+- **tokfmpodcast**: [Fix formats extraction](https://github.com/yt-dlp/yt-dlp/commit/91832111a12d87499294a0f430829b8c2254c339) ([#12842](https://github.com/yt-dlp/yt-dlp/issues/12842)) by [selfisekai](https://github.com/selfisekai)
+- **vk**: [Fix chapters extraction](https://github.com/yt-dlp/yt-dlp/commit/5361a7c6e2933c919716e0cb1e3116c28c40419f) ([#12821](https://github.com/yt-dlp/yt-dlp/issues/12821)) by [seproDev](https://github.com/seproDev)
+
 ### 2025.03.31
 
 #### Core changes
