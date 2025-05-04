@@ -4,6 +4,20 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2025.05.04.090033
+
+#### Extractor changes
+- **bitchute**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/1d0f6539c47e5d5c68c3c47cdb7075339e2885ac) ([#13081](https://github.com/yt-dlp/yt-dlp/issues/13081)) by [bashonly](https://github.com/bashonly)
+- **weverse**: [Fix live extraction](https://github.com/yt-dlp/yt-dlp/commit/5328eda8820cc5f21dcf917684d23fbdca41831d) ([#13084](https://github.com/yt-dlp/yt-dlp/issues/13084)) by [bashonly](https://github.com/bashonly)
+- **youtube**
+    - [Add `web_embedded` client for age-restricted videos](https://github.com/yt-dlp/yt-dlp/commit/0feec6dc131f488428bf881519e7c69766fbb9ae) ([#13089](https://github.com/yt-dlp/yt-dlp/issues/13089)) by [bashonly](https://github.com/bashonly)
+    - [Fix `--live-from-start` support for premieres](https://github.com/yt-dlp/yt-dlp/commit/8f303afb43395be360cafd7ad4ce2b6e2eedfb8a) ([#13079](https://github.com/yt-dlp/yt-dlp/issues/13079)) by [arabcoders](https://github.com/arabcoders)
+
+#### Misc. changes
+- **build**
+    - [Bump PyInstaller to v6.13.0](https://github.com/yt-dlp/yt-dlp/commit/17cf9088d0d535e4a7feffbf02bd49cd9dae5ab9) ([#13082](https://github.com/yt-dlp/yt-dlp/issues/13082)) by [bashonly](https://github.com/bashonly)
+    - [Bump run-on-arch-action to v3](https://github.com/yt-dlp/yt-dlp/commit/9064d2482d1fe722bbb4a49731fe0711c410d1c8) ([#13088](https://github.com/yt-dlp/yt-dlp/issues/13088)) by [bashonly](https://github.com/bashonly)
+
 ### 2025.04.30
 
 #### Important changes
