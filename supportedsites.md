@@ -246,7 +246,6 @@ The only reliable way to check if a site is supported is to try it.
  - **Canalplus**: mycanal.fr and piwiplus.fr
  - **Canalsurmas**
  - **CaracolTvPlay**: [*caracoltv-play*](## "netrc machine")
- - **CartoonNetwork**
  - **cbc.ca**
  - **cbc.ca:player**
  - **cbc.ca:​player:playlist**
@@ -649,7 +648,10 @@ The only reliable way to check if a site is supported is to try it.
  - **jiocinema**: [*jiocinema*](## "netrc machine")
  - **jiocinema:series**: [*jiocinema*](## "netrc machine")
  - **jiosaavn:album**
+ - **jiosaavn:artist**
  - **jiosaavn:playlist**
+ - **jiosaavn:show**
+ - **jiosaavn:​show:playlist**
  - **jiosaavn:song**
  - **Joj**
  - **JoqrAg**: 超!A&G+ 文化放送 (f.k.a. AGQR) Nippon Cultural Broadcasting, Inc. (JOQR)
@@ -1390,7 +1392,6 @@ The only reliable way to check if a site is supported is to try it.
  - **Spreaker**
  - **SpreakerShow**
  - **SpringboardPlatform**
- - **Sprout**
  - **SproutVideo**
  - **sr:mediathek**: Saarländischer Rundfunk (**Currently broken**)
  - **SRGSSR**
