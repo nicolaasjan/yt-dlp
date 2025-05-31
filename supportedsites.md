@@ -5,6 +5,8 @@ If a site is not listed here, it might still be supported by yt-dlp's embed extr
 Not all sites listed here are guaranteed to work; websites are constantly changing and sometimes this breaks yt-dlp's support for them.
 The only reliable way to check if a site is supported is to try it.
 
+ - **10play**: [*10play*](## "netrc machine")
+ - **10play:season**
  - **17live**
  - **17live:clip**
  - **17live:vod**
@@ -295,7 +297,7 @@ The only reliable way to check if a site is supported is to try it.
  - **CNNIndonesia**
  - **ComedyCentral**
  - **ComedyCentralTV**
- - **ConanClassic**
+ - **ConanClassic**: (**Currently broken**)
  - **CondeNast**: Condé Nast media group: Allure, Architectural Digest, Ars Technica, Bon Appétit, Brides, Condé Nast, Condé Nast Traveler, Details, Epicurious, GQ, Glamour, Golf Digest, SELF, Teen Vogue, The New Yorker, Vanity Fair, Vogue, W Magazine, WIRED
  - **CONtv**
  - **CookingChannel**
@@ -882,19 +884,19 @@ The only reliable way to check if a site is supported is to try it.
  - **Naver**
  - **Naver:live**
  - **navernow**
- - **nba**
- - **nba:channel**
- - **nba:embed**
- - **nba:watch**
- - **nba:​watch:collection**
- - **nba:​watch:embed**
+ - **nba**: (**Currently broken**)
+ - **nba:channel**: (**Currently broken**)
+ - **nba:embed**: (**Currently broken**)
+ - **nba:watch**: (**Currently broken**)
+ - **nba:​watch:collection**: (**Currently broken**)
+ - **nba:​watch:embed**: (**Currently broken**)
  - **NBC**
  - **NBCNews**
  - **nbcolympics**
- - **nbcolympics:stream**
- - **NBCSports**
- - **NBCSportsStream**
- - **NBCSportsVPlayer**
+ - **nbcolympics:stream**: (**Currently broken**)
+ - **NBCSports**: (**Currently broken**)
+ - **NBCSportsStream**: (**Currently broken**)
+ - **NBCSportsVPlayer**: (**Currently broken**)
  - **NBCStations**
  - **ndr**: NDR.de - Norddeutscher Rundfunk
  - **ndr:embed**
@@ -1428,7 +1430,7 @@ The only reliable way to check if a site is supported is to try it.
  - **SVTPlay**: SVT Play and Öppet arkiv
  - **SVTSeries**
  - **SwearnetEpisode**
- - **Syfy**: (**Currently broken**)
+ - **Syfy**
  - **SYVDK**
  - **SztvHu**
  - **t-online.de**: (**Currently broken**)
@@ -1472,8 +1474,6 @@ The only reliable way to check if a site is supported is to try it.
  - **Telewebion**: (**Currently broken**)
  - **Tempo**
  - **TennisTV**: [*tennistv*](## "netrc machine")
- - **TenPlay**: [*10play*](## "netrc machine")
- - **TenPlaySeason**
  - **TF1**
  - **TFO**
  - **theatercomplextown:ppv**: [*theatercomplextown*](## "netrc machine")
@@ -1511,6 +1511,7 @@ The only reliable way to check if a site is supported is to try it.
  - **tokfm:podcast**
  - **ToonGoggles**
  - **tou.tv**: [*toutv*](## "netrc machine")
+ - **toutiao**: 今日头条
  - **Toypics**: Toypics video (**Currently broken**)
  - **ToypicsUser**: Toypics user profile (**Currently broken**)
  - **TrailerAddict**: (**Currently broken**)
@@ -1623,9 +1624,9 @@ The only reliable way to check if a site is supported is to try it.
  - **VGTV**: VGTV, BTTV, FTV, Aftenposten and Aftonbladet
  - **vh1.com**
  - **vhx:embed**: [*vimeo*](## "netrc machine")
- - **vice**
- - **vice:article**
- - **vice:show**
+ - **vice**: (**Currently broken**)
+ - **vice:article**: (**Currently broken**)
+ - **vice:show**: (**Currently broken**)
  - **Viddler**
  - **Videa**
  - **video.arnes.si**: Arnes Video
