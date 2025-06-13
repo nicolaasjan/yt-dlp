@@ -4,6 +4,13 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2025.06.13.133820
+
+#### Extractor changes
+- [Add `_search_nuxt_json` helper](https://github.com/yt-dlp/yt-dlp/commit/51887484e46ab6015c041cb1ab626a55f25a03bd) ([#13386](https://github.com/yt-dlp/yt-dlp/issues/13386)) by [bashonly](https://github.com/bashonly), [Grub4K](https://github.com/Grub4K)
+- **brightcove**: new: [Improve metadata extraction](https://github.com/yt-dlp/yt-dlp/commit/e6bd4a3da295b760ab20b39c18ce8934d312c2bf) ([#13461](https://github.com/yt-dlp/yt-dlp/issues/13461)) by [doe1080](https://github.com/doe1080)
+- **hypergryph**: [Improve metadata extraction](https://github.com/yt-dlp/yt-dlp/commit/1722c55400ff30bb5aee5dd7a262f0b7e9ce2f0e) ([#13415](https://github.com/yt-dlp/yt-dlp/issues/13415)) by [doe1080](https://github.com/doe1080), [eason1478](https://github.com/eason1478)
+
 ### 2025.06.09
 
 #### Extractor changes

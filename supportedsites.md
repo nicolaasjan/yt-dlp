@@ -832,7 +832,7 @@ The only reliable way to check if a site is supported is to try it.
  - **Mojevideo**: mojevideo.sk
  - **Mojvideo**
  - **Monstercat**
- - **MonsterSirenHypergryphMusic**
+ - **monstersiren**: 塞壬唱片
  - **Motherless**
  - **MotherlessGallery**
  - **MotherlessGroup**
