@@ -4,6 +4,19 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2025.06.30.050705
+
+#### Extractor changes
+- [Detect invalid m3u8 playlist data](https://github.com/yt-dlp/yt-dlp/commit/7b81634fb1d15999757e7a9883daa6ef09ea785b) ([#13563](https://github.com/yt-dlp/yt-dlp/issues/13563)) by [Grub4K](https://github.com/Grub4K)
+- **bilibilispacevideo**: [Extract hidden-mode collections as playlists](https://github.com/yt-dlp/yt-dlp/commit/99b85ac102047446e6adf5b62bfc3c8d80b53778) ([#13533](https://github.com/yt-dlp/yt-dlp/issues/13533)) by [c-basalt](https://github.com/c-basalt)
+- **hotstar**
+    - [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/b5bd057fe86550f3aa67f2fc8790d1c6a251c57b) ([#13530](https://github.com/yt-dlp/yt-dlp/issues/13530)) by [bashonly](https://github.com/bashonly), [chauhantirth](https://github.com/chauhantirth)
+    - [Fix metadata extraction](https://github.com/yt-dlp/yt-dlp/commit/0a6b1044899f452cd10b6c7a6b00fa985a9a8b97) ([#13560](https://github.com/yt-dlp/yt-dlp/issues/13560)) by [bashonly](https://github.com/bashonly)
+    - [Raise for login required](https://github.com/yt-dlp/yt-dlp/commit/5e292baad62c749b6c340621ab2d0f904165ddfb) ([#10405](https://github.com/yt-dlp/yt-dlp/issues/10405)) by [bashonly](https://github.com/bashonly)
+    - series: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/4bd9a7ade7e0508b9795b3e72a69eeb40788b62b) ([#13564](https://github.com/yt-dlp/yt-dlp/issues/13564)) by [bashonly](https://github.com/bashonly)
+- **jiocinema**: [Remove extractors](https://github.com/yt-dlp/yt-dlp/commit/7e2504f941a11ea2b0dba00de3f0295cdc253e79) ([#13565](https://github.com/yt-dlp/yt-dlp/issues/13565)) by [bashonly](https://github.com/bashonly)
+- **niconico**: live: [Fix extractor and downloader](https://github.com/yt-dlp/yt-dlp/commit/06c1a8cdffe14050206683253726875144192ef5) ([#13158](https://github.com/yt-dlp/yt-dlp/issues/13158)) by [doe1080](https://github.com/doe1080)
+
 ### 2025.06.25
 
 #### Extractor changes
