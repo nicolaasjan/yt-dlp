@@ -807,6 +807,7 @@ The only reliable way to check if a site is supported is to try it.
  - **minds:channel**
  - **minds:group**
  - **Minoto**
+ - **mir24.tv**
  - **mirrativ**
  - **mirrativ:user**
  - **MirrorCoUK**
