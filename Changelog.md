@@ -4,6 +4,22 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2025.08.16.082053
+
+#### Extractor changes
+- [Extract avif storyboard formats from MPD manifests](https://github.com/yt-dlp/yt-dlp/commit/770119bdd15c525ba4338503f0eb68ea4baedf10) ([#14016](https://github.com/yt-dlp/yt-dlp/issues/14016)) by [doe1080](https://github.com/doe1080)
+- `_rta_search`: [Do not assume `age_limit` is `0`](https://github.com/yt-dlp/yt-dlp/commit/6ae3543d5a1feea0c546571fd2782b024c108eac) ([#13985](https://github.com/yt-dlp/yt-dlp/issues/13985)) by [doe1080](https://github.com/doe1080)
+- **weibo**: [Fix extractors](https://github.com/yt-dlp/yt-dlp/commit/8e3f8065af1415caeff788c5c430703dd0d8f576) ([#14012](https://github.com/yt-dlp/yt-dlp/issues/14012)) by [AzartX47](https://github.com/AzartX47), [bashonly](https://github.com/bashonly)
+- **youtube**: [Add `es5` and `es6` player JS variants](https://github.com/yt-dlp/yt-dlp/commit/f2919bd28eac905f1267c62b83738a02bb5b4e04) ([#14005](https://github.com/yt-dlp/yt-dlp/issues/14005)) by [bashonly](https://github.com/bashonly)
+
+#### Postprocessor changes
+- **xattrmetadata**: [Only set "Where From" attribute on macOS](https://github.com/yt-dlp/yt-dlp/commit/bdeb3eb3f29eebbe8237fbc5186e51e7293eea4a) ([#13999](https://github.com/yt-dlp/yt-dlp/issues/13999)) by [bashonly](https://github.com/bashonly)
+
+#### Misc. changes
+- **build**
+    - [Bump PyInstaller version to 6.15.0 for Windows](https://github.com/yt-dlp/yt-dlp/commit/681ed2153de754c2c885fdad09ab71fffa8114f9) ([#14002](https://github.com/yt-dlp/yt-dlp/issues/14002)) by [bashonly](https://github.com/bashonly)
+    - [Discontinue `darwin_legacy_exe` support](https://github.com/yt-dlp/yt-dlp/commit/aea85d525e1007bb64baec0e170c054292d0858a) ([#13860](https://github.com/yt-dlp/yt-dlp/issues/13860)) by [bashonly](https://github.com/bashonly)
+
 ### 2025.08.11
 
 #### Important changes
