@@ -1069,8 +1069,6 @@ The only reliable way to check if a site is supported is to try it.
  - **PinterestCollection**
  - **PiramideTV**
  - **PiramideTVChannel**
- - **pixiv:sketch**
- - **pixiv:​sketch:user**
  - **PlanetMarathi**
  - **Platzi**: [*platzi*](## "netrc machine")
  - **PlatziCourse**: [*platzi*](## "netrc machine")
