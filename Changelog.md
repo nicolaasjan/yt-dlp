@@ -4,6 +4,12 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2025.10.05.061237
+
+#### Extractor changes
+- **tiktok**: [Support browser impersonation](https://github.com/yt-dlp/yt-dlp/commit/5513036104ed9710f624c537fb3644b07a0680db) ([#14473](https://github.com/yt-dlp/yt-dlp/issues/14473)) by [bashonly](https://github.com/bashonly), [thanhtaivtt](https://github.com/thanhtaivtt)
+- **youtube**: [Detect experiment binding GVS PO Token to video id](https://github.com/yt-dlp/yt-dlp/commit/bd5ed90419eea18adfb2f0d8efa9d22b2029119f) ([#14471](https://github.com/yt-dlp/yt-dlp/issues/14471)) by [coletdjnz](https://github.com/coletdjnz)
+
 ### 2025.09.26
 
 #### Extractor changes
