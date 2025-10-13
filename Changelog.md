@@ -4,6 +4,22 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2025.10.13.080600
+
+#### Core changes
+- [Fix `prefer-vp9-sort` compat option](https://github.com/yt-dlp/yt-dlp/commit/a6673a8e82276ea529c1773ed09e5bc4a22e822a) ([#14603](https://github.com/yt-dlp/yt-dlp/issues/14603)) by [seproDev](https://github.com/seproDev)
+
+#### Extractor changes
+- **10play**: [Rework extractor](https://github.com/yt-dlp/yt-dlp/commit/eafedc21817bb0de20e9aaccd7151a1d4c4e1ebd) ([#14417](https://github.com/yt-dlp/yt-dlp/issues/14417)) by [seproDev](https://github.com/seproDev), [Sipherdrakon](https://github.com/Sipherdrakon)
+- **cbc.ca**: listen: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/df160ab18db523f6629f2e7e20123d7a3551df28) ([#14391](https://github.com/yt-dlp/yt-dlp/issues/14391)) by [uoag](https://github.com/uoag)
+- **dropout**: [Update extractor for new domain](https://github.com/yt-dlp/yt-dlp/commit/8eb8695139dece6351aac10463df63b87b45b000) ([#14531](https://github.com/yt-dlp/yt-dlp/issues/14531)) by [cecilia-sanare](https://github.com/cecilia-sanare)
+- **musescore**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/87be1bb96ac47abaaa4cfc6d7dd651e511b74551) ([#14598](https://github.com/yt-dlp/yt-dlp/issues/14598)) by [seproDev](https://github.com/seproDev)
+- **soundcloud**: [Support new API URLs](https://github.com/yt-dlp/yt-dlp/commit/6d41aaf21c61a87e74564646abd0a8ee887e888d) ([#14449](https://github.com/yt-dlp/yt-dlp/issues/14449)) by [seproDev](https://github.com/seproDev)
+- **tiktok**: [Support browser impersonation](https://github.com/yt-dlp/yt-dlp/commit/5513036104ed9710f624c537fb3644b07a0680db) ([#14473](https://github.com/yt-dlp/yt-dlp/issues/14473)) by [bashonly](https://github.com/bashonly), [thanhtaivtt](https://github.com/thanhtaivtt)
+- **youtube**
+    - [Detect experiment binding GVS PO Token to video id](https://github.com/yt-dlp/yt-dlp/commit/bd5ed90419eea18adfb2f0d8efa9d22b2029119f) ([#14471](https://github.com/yt-dlp/yt-dlp/issues/14471)) by [coletdjnz](https://github.com/coletdjnz)
+    - tab: [Fix approximate timestamp extraction for feeds](https://github.com/yt-dlp/yt-dlp/commit/ccc25d6710a4aa373b7e15c558e07f8a2ffae5f3) ([#14539](https://github.com/yt-dlp/yt-dlp/issues/14539)) by [coletdjnz](https://github.com/coletdjnz)
+
 ### 2025.09.26
 
 #### Extractor changes
