@@ -4,6 +4,21 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2025.10.29.063241
+
+#### Core changes
+- **update**: [Fix PyInstaller onedir variant detection](https://github.com/yt-dlp/yt-dlp/commit/1c2ad94353d1c9e03615d20b6bbfc293286c7a32) ([#14800](https://github.com/yt-dlp/yt-dlp/issues/14800)) by [bashonly](https://github.com/bashonly)
+
+#### Extractor changes
+- **googledrive**
+    - [Fix subtitles extraction](https://github.com/yt-dlp/yt-dlp/commit/6d05cee4df30774ddce5c5c751fd2118f40c24fe) ([#14809](https://github.com/yt-dlp/yt-dlp/issues/14809)) by [seproDev](https://github.com/seproDev)
+    - [Rework extractor](https://github.com/yt-dlp/yt-dlp/commit/70f1098312fe53bc85358f7bd624370878b2fa28) ([#14746](https://github.com/yt-dlp/yt-dlp/issues/14746)) by [seproDev](https://github.com/seproDev)
+- **urplay**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/808b1fed76fbd07840cc23a346c11334e3d34f43) ([#14785](https://github.com/yt-dlp/yt-dlp/issues/14785)) by [seproDev](https://github.com/seproDev)
+- **web.archive**: youtube: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/d9e3011fd1c3a75871a50e78533afe78ad427ce3) ([#14753](https://github.com/yt-dlp/yt-dlp/issues/14753)) by [seproDev](https://github.com/seproDev)
+
+#### Misc. changes
+- **devscripts**: [Improve `install_deps` script](https://github.com/yt-dlp/yt-dlp/commit/73922e66e437fb4bb618bdc119a96375081bf508) ([#14766](https://github.com/yt-dlp/yt-dlp/issues/14766)) by [bashonly](https://github.com/bashonly)
+
 ### 2025.10.22
 
 #### Important changes
