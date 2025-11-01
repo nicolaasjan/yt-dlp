@@ -93,6 +93,8 @@ The only reliable way to check if a site is supported is to try it.
  - **archive.org**: archive.org video and audio
  - **ArcPublishing**
  - **ARD**
+ - **ARDAudiothek**
+ - **ARDAudiothekPlaylist**
  - **ARDMediathek**
  - **ARDMediathekCollection**
  - **Art19**
