@@ -93,6 +93,8 @@ The only reliable way to check if a site is supported is to try it.
  - **archive.org**: archive.org video and audio
  - **ArcPublishing**
  - **ARD**
+ - **ARDAudiothek**
+ - **ARDAudiothekPlaylist**
  - **ARDMediathek**
  - **ARDMediathekCollection**
  - **Art19**
@@ -533,7 +535,6 @@ The only reliable way to check if a site is supported is to try it.
  - **google:​podcasts:feed**
  - **GoogleDrive**
  - **GoogleDrive:Folder**
- - **GoPlay**: [*goplay*](## "netrc machine")
  - **GoPro**
  - **Goshgay**
  - **GoToStage**
@@ -858,6 +859,7 @@ The only reliable way to check if a site is supported is to try it.
  - **n-tv.de**
  - **N1Info:article**
  - **N1InfoAsset**
+ - **NascarClassics**
  - **Nate**
  - **NateProgram**
  - **natgeo:video**
@@ -1071,6 +1073,7 @@ The only reliable way to check if a site is supported is to try it.
  - **PlanetMarathi**
  - **Platzi**: [*platzi*](## "netrc machine")
  - **PlatziCourse**: [*platzi*](## "netrc machine")
+ - **play.tv**: [*goplay*](## "netrc machine") PLAY (formerly goplay.be)
  - **player.sky.it**
  - **PlayerFm**
  - **playeur**

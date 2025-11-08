@@ -314,10 +314,10 @@ Tip: Use `CTRL`+`F` (or `Command`+`F`)  to search by keywords
     --no-update                     Do not check for updates (default)
     --update-to [CHANNEL]@[TAG]     Upgrade/downgrade to a specific version.
                                     CHANNEL can be a repository as well. CHANNEL
-                                    and TAG default to "stable" and "latest"
-                                    respectively if omitted; See "UPDATE" for
-                                    details. Supported channels: stable,
-                                    nightly, master
+                                    and TAG default to "nicolaasjan/yt-dlp" and
+                                    "latest" respectively if omitted; See
+                                    "UPDATE" for details. Supported channels:
+                                    stable, nightly, master
     -i, --ignore-errors             Ignore download and postprocessing errors.
                                     The download will be considered successful
                                     even if the postprocessing fails
@@ -1105,11 +1105,12 @@ Make chapter entries for, or remove various segments (sponsor,
                                     for, separated by commas. Available
                                     categories are sponsor, intro, outro,
                                     selfpromo, preview, filler, interaction,
-                                    music_offtopic, poi_highlight, chapter, all
-                                    and default (=all). You can prefix the
-                                    category with a "-" to exclude it. See [1]
-                                    for descriptions of the categories. E.g.
-                                    --sponsorblock-mark all,-preview
+                                    music_offtopic, hook, poi_highlight,
+                                    chapter, all and default (=all). You can
+                                    prefix the category with a "-" to exclude
+                                    it. See [1] for descriptions of the
+                                    categories. E.g. --sponsorblock-mark
+                                    all,-preview
                                     [1] https://wiki.sponsor.ajay.app/w/Segment_Categories
     --sponsorblock-remove CATS      SponsorBlock categories to be removed from
                                     the video file, separated by commas. If a
