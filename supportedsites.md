@@ -50,6 +50,7 @@ The only reliable way to check if a site is supported is to try it.
  - **aenetworks:collection**
  - **aenetworks:show**
  - **AeonCo**
+ - **agalega:videos**
  - **AirTV**
  - **AitubeKZVideo**
  - **AliExpressLive**
@@ -190,6 +191,7 @@ The only reliable way to check if a site is supported is to try it.
  - **Biography**
  - **BitChute**
  - **BitChuteChannel**
+ - **Bitmovin**
  - **BlackboardCollaborate**
  - **BlackboardCollaborateLaunch**
  - **BleacherReport**: (**Currently broken**)
@@ -762,7 +764,8 @@ The only reliable way to check if a site is supported is to try it.
  - **massengeschmack.tv**
  - **Masters**
  - **MatchTV**
- - **Mave**
+ - **mave**
+ - **mave:channel**
  - **MBN**: mbn.co.kr (매일방송)
  - **MDR**: MDR.DE
  - **MedalTV**
@@ -895,6 +898,8 @@ The only reliable way to check if a site is supported is to try it.
  - **NerdCubedFeed**
  - **Nest**
  - **NestClip**
+ - **NetAppCollection**
+ - **NetAppVideo**
  - **netease:album**: 网易云音乐 - 专辑
  - **netease:djradio**: 网易云音乐 - 电台
  - **netease:mv**: 网易云音乐 - MV
@@ -962,6 +967,7 @@ The only reliable way to check if a site is supported is to try it.
  - **Nova**: TN.cz, Prásk.tv, Nova.cz, Novaplus.cz, FANDA.tv, Krásná.cz and Doma.cz
  - **NovaEmbed**
  - **NovaPlay**
+ - **NowCanal**
  - **nowness**
  - **nowness:playlist**
  - **nowness:series**
@@ -1461,6 +1467,8 @@ The only reliable way to check if a site is supported is to try it.
  - **TFO**: (**Currently broken**)
  - **theatercomplextown:ppv**: [*theatercomplextown*](## "netrc machine")
  - **theatercomplextown:vod**: [*theatercomplextown*](## "netrc machine")
+ - **TheChosen**
+ - **TheChosenGroup**
  - **TheGuardianPodcast**
  - **TheGuardianPodcastPlaylist**
  - **TheHighWire**
@@ -1778,6 +1786,7 @@ The only reliable way to check if a site is supported is to try it.
  - **YapFiles**: (**Currently broken**)
  - **Yappy**: (**Currently broken**)
  - **YappyProfile**
+ - **yfanefa**
  - **YleAreena**
  - **YouJizz**
  - **youku**: 优酷
