@@ -85,11 +85,10 @@ The only reliable way to check if a site is supported is to try it.
  - **ant1newsgr:embed**: ant1news.gr embedded videos
  - **antenna:watch**: antenna.gr and ant1news.gr videos
  - **Anvato**
- - **aol.com**: Yahoo screen and movies (**Currently broken**)
+ - **aol.com**: (**Currently broken**)
  - **APA**
  - **Aparat**
  - **apple:​music:connect**: Apple Music Connect
- - **AppleDaily**: 臺灣蘋果日報
  - **ApplePodcasts**
  - **appletrailers**
  - **appletrailers:section**
@@ -448,6 +447,7 @@ The only reliable way to check if a site is supported is to try it.
  - **fc2:live**
  - **Fczenit**
  - **Fifa**
+ - **FilmArchiv**: FILMARCHIV ON
  - **filmon**
  - **filmon:channel**
  - **Filmweb**
@@ -893,6 +893,7 @@ The only reliable way to check if a site is supported is to try it.
  - **NDTV**: (**Currently broken**)
  - **nebula:channel**: [*watchnebula*](## "netrc machine")
  - **nebula:media**: [*watchnebula*](## "netrc machine")
+ - **nebula:season**: [*watchnebula*](## "netrc machine")
  - **nebula:subscriptions**: [*watchnebula*](## "netrc machine")
  - **nebula:video**: [*watchnebula*](## "netrc machine")
  - **NekoHacker**
@@ -914,15 +915,12 @@ The only reliable way to check if a site is supported is to try it.
  - **Netverse**
  - **NetversePlaylist**
  - **NetverseSearch**: "netsearch:" prefix
- - **Netzkino**: (**Currently broken**)
+ - **Netzkino**
  - **Newgrounds**: [*newgrounds*](## "netrc machine")
  - **Newgrounds:playlist**
  - **Newgrounds:user**
  - **NewsPicks**
  - **Newsy**
- - **NextMedia**: 蘋果日報
- - **NextMediaActionNews**: 蘋果日報 - 動新聞
- - **NextTV**: 壹電視 (**Currently broken**)
  - **Nexx**
  - **NexxEmbed**
  - **nfb**: nfb.ca and onf.ca films and episodes
@@ -1291,7 +1289,6 @@ The only reliable way to check if a site is supported is to try it.
  - **sbs.co.kr:programs_vod**
  - **schooltv**
  - **ScienceChannel**
- - **screen.yahoo:search**: Yahoo screen search; "yvsearch:" prefix
  - **Screen9**
  - **Screencast**
  - **Screencastify**
@@ -1774,8 +1771,9 @@ The only reliable way to check if a site is supported is to try it.
  - **XVideos**
  - **xvideos:quickies**
  - **XXXYMovies**
- - **Yahoo**: Yahoo screen and movies
+ - **yahoo**
  - **yahoo:japannews**: Yahoo! Japan News
+ - **yahoo:search**: "yvsearch:" prefix
  - **YandexDisk**
  - **yandexmusic:album**: Яндекс.Музыка - Альбом
  - **yandexmusic:​artist:albums**: Яндекс.Музыка - Артист - Альбомы
