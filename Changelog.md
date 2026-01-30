@@ -4,6 +4,12 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2026.01.30.064627
+
+#### Extractor changes
+- **soop**: [Support subscription-only VODs](https://github.com/yt-dlp/yt-dlp/commit/d0bf3d0fc3455d411ae44c0a5dc974dd1481e3aa) ([#15523](https://github.com/yt-dlp/yt-dlp/issues/15523)) by [thematuu](https://github.com/thematuu)
+- **whyp**: [Extract more metadata](https://github.com/yt-dlp/yt-dlp/commit/0d8ee637e83d62edaf22aa85833a51c70d560389) ([#15757](https://github.com/yt-dlp/yt-dlp/issues/15757)) by [azdlonky](https://github.com/azdlonky)
+
 ### 2026.01.29
 
 #### Core changes
