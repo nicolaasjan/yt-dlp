@@ -4,6 +4,16 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2026.02.08.083006
+
+#### Extractor changes
+- **1tv**: [Extract chapters](https://github.com/yt-dlp/yt-dlp/commit/23c059a455acbb317b2bbe657efd59113bf4d5ac) ([#15848](https://github.com/yt-dlp/yt-dlp/issues/15848)) by [hunter-gatherer8](https://github.com/hunter-gatherer8)
+- **gem.cbc.ca**: [Support standalone, series & Olympics URLs](https://github.com/yt-dlp/yt-dlp/commit/637ae202aca7a990b3b61bc33d692870dc16c3ad) ([#15878](https://github.com/yt-dlp/yt-dlp/issues/15878)) by [0xvd](https://github.com/0xvd), [bashonly](https://github.com/bashonly), [makew0rld](https://github.com/makew0rld)
+- **locipo**: [Add extractors](https://github.com/yt-dlp/yt-dlp/commit/442c90da3ec680037b7d94abf91ec63b2e5a9ade) ([#15486](https://github.com/yt-dlp/yt-dlp/issues/15486)) by [doe1080](https://github.com/doe1080), [gravesducking](https://github.com/gravesducking)
+- **pornhub**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/6f38df31b477cf5ea3c8f91207452e3a4e8d5aa6) ([#15858](https://github.com/yt-dlp/yt-dlp/issues/15858)) by [beacdeac](https://github.com/beacdeac)
+- **visir**: [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/c7c45f52890eee40565188aee874ff4e58e95c4f) ([#15811](https://github.com/yt-dlp/yt-dlp/issues/15811)) by [doe1080](https://github.com/doe1080)
+- **xhamster**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/133cb959be4d268e2cd6b3f1d9bf87fba4c3743e) ([#15831](https://github.com/yt-dlp/yt-dlp/issues/15831)) by [0xvd](https://github.com/0xvd)
+
 ### 2026.02.04
 
 #### Extractor changes
